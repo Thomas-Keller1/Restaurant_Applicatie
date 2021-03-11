@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paran\\source\\repos\\Restaurant-Groep4\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
+      "projectUniqueName": "C:\\Users\\Paran\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
       "projectName": "Restaurant-Groep4",
-      "projectPath": "C:\\Users\\Paran\\source\\repos\\Restaurant-Groep4\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
+      "projectPath": "C:\\Users\\Paran\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
       "packagesPath": "C:\\Users\\Paran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paran\\source\\repos\\Restaurant-Groep4\\Restaurant-Groep4\\obj\\",
+      "outputPath": "C:\\Users\\Paran\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
