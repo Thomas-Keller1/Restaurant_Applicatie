@@ -15,7 +15,11 @@ namespace Restaurant_Groep4 {
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 
+<<<<<<< HEAD
             Start();                                    //calling the Start method
+=======
+            Start();
+>>>>>>> af130b9 (removed some testing stuff)
             
             while (running) {                           //Creating the main program loop
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {}
+    "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {}
   },
   "projects": {
-    "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {
+    "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
+        "projectUniqueName": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
         "projectName": "Restaurant-Groep4",
-        "projectPath": "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
-        "packagesPath": "C:\\Users\\Kaiqi\\.nuget\\packages\\",
-        "outputPath": "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\obj\\",
+        "projectPath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
+        "packagesPath": "C:\\Users\\Lamis Al Aswad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kaiqi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lamis Al Aswad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

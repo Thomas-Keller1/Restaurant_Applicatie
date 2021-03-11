@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "bcaEnC6K0hKMqHFQ952djcq1RS9OoW+qYGXnmif9t4uYiEAScHjdexPNrjyHpncxnYfa66j83UK88zdJEu+DYQ==",
+  "dgSpecHash": "ChZusFKqTA2dXWmA9nD5rany9mDBCX8z+na076/PMUxlcO6GI1ifgcyEgkhlyRbRwepU90ft/z1gubMXiauc7Q==",
   "success": true,
-  "projectFilePath": "D:\\Documenten\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
+  "projectFilePath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
