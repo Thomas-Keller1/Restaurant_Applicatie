@@ -19,5 +19,9 @@ namespace Restaurant_Groep4.Display
         public void AddCharacter(int x, int y, char character) {//Addcharacter method to access from outside this class
             displaybuffer.AddCharacter(x, y, character);        //Using the AddCharacter method from the DisplayBuffer Class
         }
+
+        public void ResizeDisplay(int newwidth, int newheight) {
+            displaybuffer.ResizeDisplayBuffer(newwidth, newheight);
+        }
     }
 }

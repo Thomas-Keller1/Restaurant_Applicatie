@@ -11,5 +11,6 @@ namespace Restaurant_Groep4.Display
         string toString();
         void EmptyBuffer();
         void AddCharacter(int x, int y, char character);
+        void ResizeDisplayBuffer(int newwidth, int newheight);
     }
 }

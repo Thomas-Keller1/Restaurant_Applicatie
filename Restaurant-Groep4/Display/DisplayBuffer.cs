@@ -43,5 +43,13 @@ namespace Restaurant_Groep4.Display
 
             Displaybuffer[y, x] = character;                //add the character at the specified location
         }
+
+        public void ResizeDisplayBuffer(int newwidth, int newheight) {
+
+            Displaybuffer = new char[newheight, newwidth];
+            DisplayHeight = newheight;
+            DisplayWidth = newwidth;
+        
+        }
     }
 }
