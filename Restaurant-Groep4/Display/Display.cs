@@ -20,8 +20,26 @@ namespace Restaurant_Groep4.Display
             displaybuffer.AddCharacter(x, y, character);        //Using the AddCharacter method from the DisplayBuffer Class
         }
 
-        public void ResizeDisplay(int newwidth, int newheight) {
-            displaybuffer.ResizeDisplayBuffer(newwidth, newheight);
+        public void ResizeDisplay(int newwidth, int newheight) {//ResizeDisplay method taking in an int for the new width and an int for the new height
+            displaybuffer.ResizeDisplayBuffer(newwidth, newheight);//With the input in this function calling the function in our displayBuffer class
+        }
+
+        public void AddString(int startX, int startY, string String) {          //Method to add an intire string to the displaybuffer
+
+            for (int i = 0; i < String.Length; i++) {                           //starting a for loop to loop through all the characters in the string
+
+                if (startX >= displaybuffer.DisplayWidth) {                     //if our current x position is bigger then the width of the displaybufffer go to the next line
+                    startX = 0;                                                 //set the our current x to 0
+                    startY++;                                                   //increment our current y by 1
+                }
+                if (startY >= displaybuffer.DisplayHeight && startX >= displaybuffer.DisplayWidth || startY >= displaybuffer.DisplayHeight) {   //if our current y is bigger then our displaybuffer height or our current y and our current x are bigger
+                    break;                                                                                                                      //Break the loop
+                }
+
+                displaybuffer.AddCharacter(startX, startY, String[i]);          //if it is all fine call the AddCharacter method from the displaybuffer class with our current x and y and the character we are on
+                startX++;                                                       //after this increment current x by 1
+
+            }
         }
     }
 }

@@ -27,6 +27,7 @@ namespace Restaurant_Groep4 {
             UserInput = Console.ReadLine();             //Waiting for user to give input
 
             display.AddCharacter(5, 5, 'H');            //Just adding a character to the displaybuffer at Y:5, X: 5 for testing
+            display.AddString(75, 6, "Helloooooooooooooooooooooooooo");     //Test for the AddString method
         }
     }
 }

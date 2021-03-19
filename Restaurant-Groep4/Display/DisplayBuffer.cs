@@ -30,7 +30,7 @@ namespace Restaurant_Groep4.Display
                         result += Displaybuffer[y, x];      //Add whatever is there to the final result
                     }
                 }
-                result += "\n";                             //At the end of the row add a /n to print on the next line
+                result += "N\n";                             //At the end of the row add a /n to print on the next line
             }
             return result;                                  //returning the result
         }
@@ -44,12 +44,12 @@ namespace Restaurant_Groep4.Display
             Displaybuffer[y, x] = character;                //add the character at the specified location
         }
 
-        public void ResizeDisplayBuffer(int newwidth, int newheight) {
+        public void ResizeDisplayBuffer(int newwidth, int newheight) {  //implementing the ResizeDisplayBuffer method from the interface IDisplayBuffer
 
-            Displaybuffer = new char[newheight, newwidth];
-            DisplayHeight = newheight;
-            DisplayWidth = newwidth;
-        
+            Displaybuffer = new char[newheight, newwidth];      //Resetting the char array that stores the displaybuffer to be a new char array of new height by new width
+            DisplayHeight = newheight;                          //updating the DisplayHeight variable to match the displaybuffers new dimensions
+            DisplayWidth = newwidth;                            //updating the DisplayWidth variable to match the displaybuffers new dimensions
+
         }
     }
 }
