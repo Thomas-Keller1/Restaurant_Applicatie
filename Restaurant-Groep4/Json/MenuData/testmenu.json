@@ -1,0 +1,24 @@
+{
+  "menuparts": [
+    {
+      "partname": "TestPart",
+      "menuitems": [
+        {
+          "name": "TestItem",
+          "price": 1500,
+          "description": "This is a testItem",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "TestItem200",
+          "price": 2500,
+          "description": "This is another testItem",
+          "vegetarian": true,
+          "vegan": true
+        }
+      ]
+    }
+  ],
+  "menuname": "testmenu"
+}

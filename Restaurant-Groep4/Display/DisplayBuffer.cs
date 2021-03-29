@@ -30,7 +30,7 @@ namespace Restaurant_Groep4.Display
                         result += Displaybuffer[y, x];      //Add whatever is there to the final result
                     }
                 }
-                result += "N\n";                             //At the end of the row add a /n to print on the next line
+                result += "\n";                             //At the end of the row add a /n to print on the next line
             }
             return result;                                  //returning the result
         }
