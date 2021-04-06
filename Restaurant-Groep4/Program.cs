@@ -33,7 +33,10 @@ namespace Restaurant_Groep4 {
             //Menu.SinglePageMenu testmenu = new Menu.SinglePageMenu("testmenu", new Menu.MenuPart("TestPart", new Menu.MenuItem("TestItem", 1500, "This is a testItem", false, false)));
             //testmenu.ToDisplay(display);
             Menu.SinglePageMenu testmenu = new Menu.SinglePageMenu("testmenu");
-            testmenu.ToDisplay(display);
+            // testmenu.ToDisplay(display); 
+            Menu.SinglePageMenu ontbijtmenu = new Menu.SinglePageMenu("Ontbijtmenu");
+            ontbijtmenu.ToDisplay(display);
+     
         }
     }
 }
