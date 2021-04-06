@@ -1,7 +1,7 @@
 {
     "menuparts": [
       {
-        "partname": "Ontbijt",
+        "partname": "Eten",
         "menuitems": [
           {
             "name": "Pannenkoeken met stroop",
@@ -51,6 +51,13 @@
             "description": "Heerlijke american pancakes geserveerd met honing of stroop en daarbij afgetopt met poedersuiker en een klontje boter",
             "vegetarian": false,
             "vegan": false
+          },
+          {
+            "name": "Bagel met zalm",
+            "price": 475,
+            "description": "Oven gebakken bagels met roomkaas, dille en heerlijke plakjes zalm (meergranen, wit, bruin)",
+            "vegetarian": false,
+            "vegan": false
           }
         ]
       }
@@ -77,6 +84,20 @@
             "description": "Vers geperste Jus d'orange",
             "vegetarian": true,
             "vegan": false
+          },
+          {
+            "name": "Cappuccino",
+            "price": 325,
+            "description": "Vers gemalen koffie met een heerlijke romige melklaag",
+            "vegetarian": false,
+            "vegan": false
+          },
+          {
+            "name": "Verse muntthee",
+            "price": 295,
+            "description": "Heerlijke warme muntthee met honing",
+            "vegetarian": true,
+            "vegan": true
           }
         ],
     "menuname": "Ontbijtmenu"
