@@ -21,7 +21,7 @@ namespace Restaurant_Groep4 {
             display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
         }
- 
+
         private static void Update() {                  //Update method
             display.ToConsole();                        //Displaying everything in our display to the console
             Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
@@ -33,7 +33,9 @@ namespace Restaurant_Groep4 {
             //Menu.SinglePageMenu testmenu = new Menu.SinglePageMenu("testmenu", new Menu.MenuPart("TestPart", new Menu.MenuItem("TestItem", 1500, "This is a testItem", false, false)));
             //testmenu.ToDisplay(display);
             Menu.SinglePageMenu testmenu = new Menu.SinglePageMenu("testmenu");
-            testmenu.ToDisplay(display);
+            //testmenu.ToDisplay(display);
+            Menu.SinglePageMenu Kindermenu = new Menu.SinglePageMenu("Kindermenu");
+            Kindermenu.ToDisplay(display);
         }
     }
 }
