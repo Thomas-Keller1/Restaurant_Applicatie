@@ -58,6 +58,20 @@
             "description": "Oven gebakken bagels met roomkaas, dille en heerlijke plakjes zalm (meergranen, wit, bruin)",
             "vegetarian": false,
             "vegan": false
+          },
+          {
+            "name": "Egg benedict met toast",
+            "price": 295,
+            "description": "Egg benedict met 2 plakjes toast en een beetje sla(meergranen, wit, bruin)",
+            "vegetarian": false,
+            "vegan": false
+          },
+          {
+            "name": "Broodjes met beleg",
+            "price": 250,
+            "description": "Oven gebakken broodjes met heerlijk zelf gekozen beleg (Wit pistoletje, Volkeren pistoletje, kaiserbroodje, Italiaanse bol) (Ham, kaas, jam, boter, chocolade pasta)",
+            "vegetarian": false,
+            "vegan": false
           }
         ]
       }
@@ -93,9 +107,30 @@
             "vegan": false
           },
           {
+            "name": "Latte",
+            "price": 300,
+            "description": "Vers gemalen koffie met een romige melk",
+            "vegetarian": false,
+            "vegan": false
+          },
+          {
             "name": "Verse muntthee",
             "price": 295,
             "description": "Heerlijke warme muntthee met honing",
+            "vegetarian": true,
+            "vegan": true
+          },
+          {
+            "name": "Glas melk",
+            "price": 150,
+            "description": "Heerlijke romige melk",
+            "vegetarian": false,
+            "vegan": false
+          },
+          {
+            "name": "Flesje water",
+            "price": 150,
+            "description": "Bronwater (spa rood of spa blauw)",
             "vegetarian": true,
             "vegan": true
           }
