@@ -1,0 +1,23 @@
+{
+"CompanyName" :"**Restaurant**",
+
+"Email":
+	"contact@Restaurant.nl",
+
+"PhoneNumber":
+	"0031657484333",
+
+"openinghours":
+	"11:00_2:00",
+
+"Location":
+	"AAlscholverlaan 11
+	3232RR Rotterdam",
+
+"AboutUs":
+	"........",
+
+"CustomerService":
+	"xxxxxxx"
+
+}
