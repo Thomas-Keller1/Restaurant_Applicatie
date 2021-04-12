@@ -22,10 +22,17 @@ namespace Restaurant_Groep4 {
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
         }
  
-        private static void Update() {                  //Update method
-            display.ToConsole();                        //Displaying everything in our display to the console
+        private static void Update() { 
+            display.AddString(0,0,"1: Inloggen");
+            display.AddString(0,1,"2: Reserveren");
+            display.AddString(0,2,"1: Reviews plaatsen");   
+            display.AddString(0,3,"1: Afsluiten");   
+            display.AddString(0,4,"1: Inloggen");                       //Update method
+            display.ToConsole();
+                          //Displaying everything in our display to the console
             Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
-            UserInput = Console.ReadLine();             //Waiting for user to give input
+            UserInput = Console.ReadLine();
+                     //Waiting for user to give input
 
             //display.AddCharacter(5, 5, 'H');            //Just adding a character to the displaybuffer at Y:5, X: 5 for testing
             //display.AddString(75, 6, "Helloooooooooooooooooooooooooo");     //Test for the AddString method

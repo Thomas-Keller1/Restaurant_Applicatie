@@ -40,6 +40,8 @@ namespace Restaurant_Groep4.Display
                 startX++;                                                       //after this increment current x by 1
 
             }
+
         }
     }
 }
+
