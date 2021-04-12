@@ -35,7 +35,13 @@ namespace Restaurant_Groep4 {
             Menu.SinglePageMenu testmenu = new Menu.SinglePageMenu("testmenu");
             //testmenu.ToDisplay(display);
             Menu.SinglePageMenu Kindermenu = new Menu.SinglePageMenu("Kindermenu");
-            Kindermenu.ToDisplay(display);
+            //Kindermenu.ToDisplay(display);
+            Menu.SinglePageMenu Dinermenu = new Menu.SinglePageMenu("Dinermenu");
+            Dinermenu.ToDisplay(display);
+            Menu.SinglePageMenu Lunchmenu = new Menu.SinglePageMenu("Lunchmenu");
+            //Lunchmenu.ToDisplay(display);
+            Menu.SinglePageMenu Drankenkaart = new Menu.SinglePageMenu("Drankenkaart");
+            //Drankenkaart.ToDisplay(display);
         }
     }
 }

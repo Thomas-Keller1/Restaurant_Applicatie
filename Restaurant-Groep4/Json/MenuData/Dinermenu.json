@@ -1,0 +1,591 @@
+{
+  "menuparts": [
+    {
+      "partname": "Voorgerechten",
+      "menuitems": [
+        {
+          "name": "Stokbrood",
+          "price": 400,
+          "description": "Brood uit eigen keuken met kruidenboter.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Tzatziki",
+          "price": 425,
+          "description": "Yoghurt, komkommer, dille, knoflook en peterselie.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Scampi all'aglio",
+          "price": 750,
+          "description": "Gamba's in knoflookboter uit de oven.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Carpaccio",
+          "price": 1495,
+          "description": "Fijngesneden rundsfilet met balsamico, parmezaan en olijfolie.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Hollandse garnalencocktail",
+          "price": 1495,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Antipasto Misto",
+          "price": 1695,
+          "description": "Parmaham, Mortadella, tomaat, mozzarella.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vitello Tomato",
+          "price": 1695,
+          "description": "Fijngesneden kalfsvlees met tonijnsaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Crochette di Fromaggio",
+          "price": 895,
+          "description": "Kaaskroketten.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Crochette di Gamberetti",
+          "price": 1195,
+          "description": "Garnaalkroketten.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Toast ai Funghi",
+          "price": 1050,
+          "description": "Toast met gebakken champignon, look en fijne kruiden.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Calamari Fritti",
+          "price": 1450,
+          "description": "Gefrituurde inktvisringen met aioli.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Salades",
+      "menuitems": [
+        {
+          "name": "Insalata Mista",
+          "price": 895,
+          "description": "Gemengde salade met vinaigrette en balsamico.",
+          "vegetarian": false,
+          "vegan": true
+        },
+        {
+          "name": "Insalata Caprese",
+          "price": 1250,
+          "description": "Gemengde salade met tomaten, mozzarella, olijfolie en balsamico.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Insalata Feta",
+          "price": 1025,
+          "description": "Gemengde salade met fetakaas",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Insalata Méditerranée",
+          "price": 1695,
+          "description": "Gemengde salade met scampi's, gerookte zalm, olijven en vinaigrette.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Insalata Niçoise",
+          "price": 1250,
+          "description": "Gemengde salade met tonijn, ansjovis, ui, boontjes, olijven en vinaigrette.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Insalata Tonno",
+          "price": 1250,
+          "description": "Gemengde salade met tonijn, olijven en vinaigrette.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Soepen",
+      "menuitems": [
+        {
+          "name": "Minestone",
+          "price": 595,
+          "description": "Italiaanse groentesoep.",
+          "vegetarian": false,
+          "vegan": true
+        },
+        {
+          "name": "Crema di Pomodoro",
+          "price": 595,
+          "description": "Tomatenroomsoep.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Zuppa di Pesce",
+          "price": 895,
+          "description": "Méditerrane vissoep.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Champignonsoep",
+          "price": 595,
+          "description": "",
+          "vegetarian": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Pizza's",
+      "menuitems": [
+        {
+          "name": "Margherita",
+          "price": 750,
+          "description": "Tomatensaus, kaas.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Prosciutto",
+          "price": 900,
+          "description": "Tomatensaus, kaas, ham.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Salami",
+          "price": 900,
+          "description": "Tomatensaus, kaas, salami.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Funghi",
+          "price": 900,
+          "description": "Tomatensaus, kaas, champignons.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Americana",
+          "price": 1025,
+          "description": "Tomatensaus, kaas, salami, paprika.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Tonno",
+          "price": 1025,
+          "description": "Tomatensaus, kaas, tonijn, ui.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Hot Chicken",
+          "price": 1075,
+          "description": "Tomatensaus, kaas, ui, paprika, pittige kipfilet.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Spinazie",
+          "price": 1050,
+          "description": "Tomatensaus, kaas, spinazie, ham, ei, knoflook.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Mafiosa",
+          "price": 1000,
+          "description": "Tomatensaus, kaas, ansjovis, olijven, kappertjes.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Hawaï",
+          "price": 1025,
+          "description": "Tomatensaus, kaas, ham, ananas.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Bolognese",
+          "price": 1025,
+          "description": "Bolognese, parmezaanse kaas, ei.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vegetariana",
+          "price": 1125,
+          "description": "Tomatensaus, kaas, champions, ui, paprika, spinazie, olijven.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Quatro Formaggi",
+          "price": 1125,
+          "description": "Tomatensaus, kaas, mozzarella, gorgonzola, parmezaanse kaas.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Méditerranée",
+          "price": 1200,
+          "description": "Tomatensaus, kaas, gehakt, ui, verse tomaat, rucola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Döner",
+          "price": 1200,
+          "description": "Tomatensaus, kaas, döner, knoflooksaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Pesto",
+          "price": 1200,
+          "description": "Tomatensaus, kaas, ham, pesto, gorgonzola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Mista",
+          "price": 1125,
+          "description": "Tomatensaus, kaas, tonijn, ansjovis, olijven, kappertjes.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Peperola",
+          "price": 1125,
+          "description": "Tomatensaus, kaas, knoflookworst, peperoni, ui.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vesuvio",
+          "price": 1200,
+          "description": "Tomatensaus, kaas, salami, ui, paprika, ansjovis, samba.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Siciliane",
+          "price": 1200,
+          "description": "Tomatensaus, kaas, salami, tonijn, champions, paprika.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Scampi",
+          "price": 1300,
+          "description": "Tomatensaus, kaas, scampi en rucola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Del Mare",
+          "price": 1495,
+          "description": "Tomatensaus, kaas, zeevruchten, ansjovis, rucola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Calzone",
+          "price": 1300,
+          "description": "Tomatensaus, kaas, gehakt, champions, ui, paprika.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Oceano",
+          "price": 1695,
+          "description": "Tomatensaus, kaas, zalm, ui, gorgonzola, scampi's en look.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Carpaccio",
+          "price": 1595,
+          "description": "Tomatensaus, kaas, fijngesneden rundsfilet, balsamico, olijfolie en parmezaan.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Diabolo",
+          "price": 1250,
+          "description": "Tomatensaus, kaas, gehakt, champions, ui, paprika.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Pasta",
+      "menuitems": [
+        {
+          "name": "Bolognese",
+          "price": 1075,
+          "description": "Pasta in bolognesesaus, parmezaanse kaas, rucola.",
+          "vegetarian": false,
+          "vegan": true
+        },
+        {
+          "name": "Carbonara",
+          "price": 1295,
+          "description": "Pasta in carbonarasaus, pancetta, ei en parmezaanse kaas.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Frutti di Mare",
+          "price": 1650,
+          "description": "Pasta met zeevruchten, mosselen en scampi's in een tomatensaus met look en basilicum.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Méditerranée",
+          "price": 1895,
+          "description": "Pasta met gamba's, garnalen, mosselen in een tomatensaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vegatali",
+          "price": 1295,
+          "description": "Pasta met aubergine, paprika, courgette en champignons in een tomatenroomsaus.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Agli Scampi",
+          "price": 1650,
+          "description": "Pasta met scampi's, look in een tomatenroomsaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Gamberoni",
+          "price": 1795,
+          "description": "Pasta met gamba's, look in pikante tomatensaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Quatro Formaggi",
+          "price": 1450,
+          "description": "Pasta met vier soorten kaas in een roomsaus.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Salmone e Funghi",
+          "price": 1295,
+          "description": "Pasta met gerookte zalm, champignons in een tomatenroomsaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Pesto",
+          "price": 1200,
+          "description": "Pasta in roomsaus van pesto, gorgonzola, champions, ham, parmezaanse kaas, rucola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Siciliane",
+          "price": 1075,
+          "description": "Pasta in tomatensaus met paprika en ui, olijven, kappertjes, parmezaanse kaas, rucola.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Lasagne",
+          "price": 1275,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vegetarische Lasagne",
+          "price": 1250,
+          "description": "",
+          "vegetarian": true,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Vleesgerechten",
+      "menuitems": [
+        {
+          "name": "Scaloppina Milanese",
+          "price": 1950,
+          "description": "Gepaneerd kalfslapje.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Scaloppina Cordon Bleu",
+          "price": 2150,
+          "description": "Kalfslapje, gevuld met mozarella, Mortadella en roomsaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Saltimbocca alla Romana",
+          "price": 3250,
+          "description": "Kalfsvlees met parmaham, salie, rozemarijn, en wittewijn saus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Cotolette d'agnell alla provenzale",
+          "price": 2495,
+          "description": "Gegrilde lamskoteletjes met provencaalse kruiden.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Steak",
+          "price": 2295,
+          "description": "Biefstuk met rozemarijn en rodewijn saus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Filet",
+          "price": 2695,
+          "description": "Ossenhaas met rozemarijn en rodewijn saus.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Visgerechten",
+      "menuitems": [
+        {
+          "name": "Gamberoni all'aglio",
+          "price": 2450,
+          "description": "Gamba's met look.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Gamberoni alla Griglia",
+          "price": 2450,
+          "description": "Gegrilde gamba's.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Gamberoni Picante",
+          "price": 2495,
+          "description": "Gamba's met look, tomaat, balsamico en pikante pepers.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Scampi con Salmone",
+          "price": 2250,
+          "description": "Scampi's met gerookte zalm in een tomatensaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Scampi alla fiama",
+          "price": 2250,
+          "description": "Geflambeerde scampi's met fijne curryroomsaus (licht pikant).",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Filletto di sogliola alla Martinino",
+          "price": 2450,
+          "description": "Tongfilet met grijze garnalen in een wittewijnsaus.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Nagerechten",
+      "menuitems": [
+        {
+          "name": "Dame Blanche",
+          "price": 725,
+          "description": "Drie bolletjes ijs met slagroom en chocoladesaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Banana Royal",
+          "price": 750,
+          "description": "Drie bolletjes ijs met banaan, slagroom en chocoladesaus.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Coupe Brésilienne",
+          "price": 725,
+          "description": "Drie bolletjes vanille-ijs met mokkasaus, caramelsaus en nootjes.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Tiramisu",
+          "price": 795,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Coupe Pistache",
+          "price": 750,
+          "description": "Pistache-ijs met stukjes pistachenootjes.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Moelleux au Chocolat",
+          "price": 850,
+          "description": "Chocoladecake met vanille-ijs.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    }
+  ],
+  "menuname": "Dinermenu"
+}
