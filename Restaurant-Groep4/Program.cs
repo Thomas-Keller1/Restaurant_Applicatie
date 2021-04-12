@@ -25,9 +25,9 @@ namespace Restaurant_Groep4 {
         private static void Update() { 
             display.AddString(0,0,"1: Inloggen");
             display.AddString(0,1,"2: Reserveren");
-            display.AddString(0,2,"1: Reviews plaatsen");   
-            display.AddString(0,3,"1: Afsluiten");   
-            display.AddString(0,4,"1: Inloggen");                       //Update method
+            display.AddString(0,2,"3: Reviews plaatsen");   
+            display.AddString(0,3,"4: Afsluiten");   
+            display.AddString(0,4,"5: Inloggen");                       //Update method
             display.ToConsole();
                           //Displaying everything in our display to the console
             Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
