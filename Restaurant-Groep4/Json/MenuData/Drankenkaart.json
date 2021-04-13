@@ -1,0 +1,151 @@
+{
+  "menuparts": [
+    {
+      "partname": "Pizza",
+      "menuitems": [
+        {
+          "name": "Bambino",
+          "price": 650,
+          "description": "Vier kleine pizza's (twee margherita, een salami, een ham).",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Salami",
+          "price": 675,
+          "description": "Tomatensaus, kaas en salami.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Margherita",
+          "price": 650,
+          "description": "Tomatensaus en kaas.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Prosciutto",
+          "price": 675,
+          "description": "Tomatensaus, kaas en ham.",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Verona",
+          "price": 700,
+          "description": "Tomatensaus, kaas, salami, ham en champignon.",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Pasta",
+      "menuitems": [
+        {
+          "name": "Bolognese",
+          "price": 650,
+          "description": "Spaghettie/Penne in een bolognese saus met parmezaanse kaas.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Lasagne",
+          "price": 675,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Warme gerechten",
+      "menuitems": [
+        {
+          "name": "Kaaskroketje",
+          "price": 550,
+          "description": "Kaaskroketje met frietjes en appelmoes",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Frikandel",
+          "price": 550,
+          "description": "Frikandel met frietjes en appelmoes",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vega Frikandel",
+          "price": 550,
+          "description": "Vegetarische frikandel met frietjes en appelmoes",
+          "vegetarian": true,
+          "vegan": false
+        },
+        {
+          "name": "Kipnuggets",
+          "price": 600,
+          "description": "Kipnuggets met frietjes en appelmoes",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Frietjes",
+          "price": 450,
+          "description": "Portie frietjes met mayonaise en appelmoes",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Hamburger",
+          "price": 750,
+          "description": "Hamburger met frietjes en appelmoes",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Döner",
+          "price": 750,
+          "description": "Döner met frietjes en appelmoes",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Nagerechten",
+      "menuitems": [
+        {
+          "name": "Aardbei-ijs",
+          "price": 350,
+          "description": "Twee bolletjes aardbei-ijs met slagroom",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Vanille-ijs",
+          "price": 350,
+          "description": "Twee bolletjes vanille-ijs met slagroom",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Chocolade-ijs",
+          "price": 350,
+          "description": "Twee bolletjes Chocolade-ijs met slagroom",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Banaanijs",
+          "price": 350,
+          "description": "Twee bolletjes banaanijs met slagroom",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    }
+  ],
+  "menuname": "Drankenkaart"
+}

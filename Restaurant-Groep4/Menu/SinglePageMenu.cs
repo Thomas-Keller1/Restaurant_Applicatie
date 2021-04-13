@@ -114,7 +114,7 @@ namespace Restaurant_Groep4.Menu {
             }
             currentY++;
             display.AddString(0, currentY, new string('=', display.displaybuffer.DisplayWidth));
-            display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
+            display.AddControl(new Control("Terug", ScreenEnum.Menus, false));
         }
         public int LinesNeeded() {
             int result = 2;

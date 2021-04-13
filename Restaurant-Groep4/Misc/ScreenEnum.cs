@@ -13,6 +13,10 @@ namespace Restaurant_Groep4.Misc {
         Ontbijtmenu,
         Lunchmenu,
         Drankenkaart,
-        Contactpage
+        Contactpage,
+        Login,
+        Reserveren,
+        Reviews,
+        Afsluiten
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Restaurant_Groep4;
 using Restaurant_Groep4.Menu;
+using Restaurant_Groep4.Screens;
 
 namespace Restaurant_Groep4.Misc {
     class ControlHandler {
@@ -51,6 +52,38 @@ namespace Restaurant_Groep4.Misc {
             }
             else {
                 Program.onScreen = ControlToBeExcecuted.ToDisplay;
+            }
+        }
+
+        public static void HandleDisplay() {
+
+            if (Program.onScreen == ScreenEnum.Mainmenu) {
+
+                Mainmenu.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Menus) {
+
+                Menus.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Ontbijtmenu) {
+
+                MenuRegister.menuregister[0].Item1.ToDisplay(Program.display);
+            }
+            else if (Program.onScreen == ScreenEnum.Lunchmenu) {
+
+                MenuRegister.menuregister[1].Item1.ToDisplay(Program.display);
+            }
+            else if (Program.onScreen == ScreenEnum.Dinermenu) {
+
+                MenuRegister.menuregister[2].Item1.ToDisplay(Program.display);
+            }
+            else if (Program.onScreen == ScreenEnum.Kindermenu) {
+
+                MenuRegister.menuregister[3].Item1.ToDisplay(Program.display);
+            }
+            else if (Program.onScreen == ScreenEnum.Drankenkaart) {
+
+                MenuRegister.menuregister[4].Item1.ToDisplay(Program.display);
             }
         }
     }
