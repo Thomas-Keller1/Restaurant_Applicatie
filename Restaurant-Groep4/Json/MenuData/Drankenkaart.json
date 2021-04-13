@@ -1,58 +1,130 @@
 {
   "menuparts": [
     {
-      "partname": "Pizza",
+      "partname": "Frisdranken",
       "menuitems": [
         {
-          "name": "Bambino",
-          "price": 650,
-          "description": "Vier kleine pizza's (twee margherita, een salami, een ham).",
+          "name": "Coca-Cola",
+          "price": 260,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Salami",
-          "price": 675,
-          "description": "Tomatensaus, kaas en salami.",
+          "name": "Coca-Cola Light",
+          "price": 260,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Margherita",
-          "price": 650,
-          "description": "Tomatensaus en kaas.",
-          "vegetarian": true,
-          "vegan": false
-        },
-        {
-          "name": "Prosciutto",
-          "price": 675,
-          "description": "Tomatensaus, kaas en ham.",
-          "vegetarian": true,
-          "vegan": false
-        },
-        {
-          "name": "Verona",
-          "price": 700,
-          "description": "Tomatensaus, kaas, salami, ham en champignon.",
-          "vegetarian": false,
-          "vegan": false
-        }
-      ]
-    },
-    {
-      "partname": "Pasta",
-      "menuitems": [
-        {
-          "name": "Bolognese",
-          "price": 650,
-          "description": "Spaghettie/Penne in een bolognese saus met parmezaanse kaas.",
+          "name": "Lipton Ice Tea",
+          "price": 320,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Lasagne",
-          "price": 675,
+          "name": "Lipton Ice Tea Green",
+          "price": 320,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Fanta",
+          "price": 260,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Sprite",
+          "price": 260,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Cassis",
+          "price": 260,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Tonic",
+          "price": 320,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Rivella",
+          "price": 320,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Ginger Ale",
+          "price": 320,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Biter Lemon",
+          "price": 320,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Jus d'orange",
+          "price": 290,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Royal Club Appelsap",
+          "price": 290,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Fristi",
+          "price": 290,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Chocomel",
+          "price": 290,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Sourcy Blauw",
+          "price": 260,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Sourcy Rood",
+          "price": 260,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Sourcy Groen",
+          "price": 260,
           "description": "",
           "vegetarian": false,
           "vegan": false
@@ -60,87 +132,364 @@
       ]
     },
     {
-      "partname": "Warme gerechten",
+      "partname": "Warme dranken",
       "menuitems": [
         {
-          "name": "Kaaskroketje",
-          "price": 550,
-          "description": "Kaaskroketje met frietjes en appelmoes",
-          "vegetarian": true,
-          "vegan": false
-        },
-        {
-          "name": "Frikandel",
-          "price": 550,
-          "description": "Frikandel met frietjes en appelmoes",
+          "name": "Koffie",
+          "price": 275,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Vega Frikandel",
-          "price": 550,
-          "description": "Vegetarische frikandel met frietjes en appelmoes",
-          "vegetarian": true,
-          "vegan": false
-        },
-        {
-          "name": "Kipnuggets",
-          "price": 600,
-          "description": "Kipnuggets met frietjes en appelmoes",
+          "name": "Espresso",
+          "price": 275,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Frietjes",
-          "price": 450,
-          "description": "Portie frietjes met mayonaise en appelmoes",
+          "name": "Cappuccino",
+          "price": 350,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Hamburger",
-          "price": 750,
-          "description": "Hamburger met frietjes en appelmoes",
+          "name": "Latté Macchiato",
+          "price": 350,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Döner",
-          "price": 750,
-          "description": "Döner met frietjes en appelmoes",
+          "name": "Koffie Verkeerd",
+          "price": 350,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Thee",
+          "price": 275,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Verse Munt Thee",
+          "price": 350,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Warme Chocolademelk",
+          "price": 320,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         }
       ]
     },
     {
-      "partname": "Nagerechten",
+      "partname": "Koffie Likeuren",
       "menuitems": [
         {
-          "name": "Aardbei-ijs",
-          "price": 350,
-          "description": "Twee bolletjes aardbei-ijs met slagroom",
+          "name": "Baileys",
+          "price": 800,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Vanille-ijs",
-          "price": 350,
-          "description": "Twee bolletjes vanille-ijs met slagroom",
+          "name": "Amaretto",
+          "price": 800,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Chocolade-ijs",
-          "price": 350,
-          "description": "Twee bolletjes Chocolade-ijs met slagroom",
+          "name": "Licor 43",
+          "price": 800,
+          "description": "",
           "vegetarian": false,
           "vegan": false
         },
         {
-          "name": "Banaanijs",
+          "name": "Tia Maria",
+          "price": 800,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Cointreau",
+          "price": 800,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Bier uit fles",
+      "menuitems": [
+        {
+          "name": "Bavaria",
+          "price": 275,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Bavaria Malt (0.0%)",
+          "price": 275,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "La Trappe Blonde",
+          "price": 425,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "La Trappe Dubbel",
+          "price": 425,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "La Trappe Trippel",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "La Trappe Wit",
+          "price": 375,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Heineken",
+          "price": 325,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Duvel",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Desperados",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Wijnen",
+      "menuitems": [
+        {
+          "name": "Witte Huiswijn",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Rode Huiswijn",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Rosé Huiswijn",
+          "price": 475,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Aperitieven",
+      "menuitems": [
+        {
+          "name": "Ruby Port",
+          "price": 395,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Witte Port",
+          "price": 395,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Sherry Dry",
+          "price": 395,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Martini Bianco",
+          "price": 375,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Campari",
+          "price": 450,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Malibu",
+          "price": 550,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Smirnoff Vodka",
+          "price": 550,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Hendrick's Gin",
+          "price": 650,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Bacardi Blanc",
+          "price": 550,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Jonge Jenever",
           "price": 350,
-          "description": "Twee bolletjes banaanijs met slagroom",
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Oude Jenever",
+          "price": 350,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Likeuren",
+      "menuitems": [
+        {
+          "name": "Baileys",
+          "price": 700,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Tia Maria",
+          "price": 700,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Amaretto",
+          "price": 700,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Licor 43",
+          "price": 700,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Cointreau",
+          "price": 825,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Grand Marnier Rouge",
+          "price": 825,
+          "description": "",
+          "vegetarian": false,
+          "vegan": false
+        }
+      ]
+    },
+    {
+      "partname": "Cocktails",
+      "menuitems": [
+        {
+          "name": "Mojito",
+          "price": 850,
+          "description": "Bacardi, Limoen, Verse Munt, Sourcy rood.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Watermelon Fizz",
+          "price": 875,
+          "description": "Vodka, Watermeloen siroop, Citroen, Sourcy.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Tropical Vodka",
+          "price": 925,
+          "description": "Vodka, Ananassap, Limoen, Passion, Prosecco.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Beach Island Iced Tea",
+          "price": 1175,
+          "description": "Bacardi, Vodka, Tequila, Gin, Peachtree, Limoen, Cranberrysap.",
+          "vegetarian": false,
+          "vegan": false
+        },
+        {
+          "name": "Long Island Iced tea",
+          "price": 1175,
+          "description": "Bacardi, Vodka, Tequila, Cointreau, Gin, Limoen, Cola.",
           "vegetarian": false,
           "vegan": false
         }
