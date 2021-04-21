@@ -37,17 +37,30 @@ namespace Restaurant_Groep4.Misc {
             Control ControlToBeExcecuted = Program.display.controls[userinputasint - 1];
             if (ControlToBeExcecuted.LocalSwitch) {
 
-                for (int index = 0; index < MenuRegister.menuregister.Count; index++) {
-                    if (Program.onScreen == MenuRegister.menuregister[index].Item2) {
+                if (Program.onScreen != ScreenEnum.Reviews) {
+                    for (int index = 0; index < MenuRegister.menuregister.Count; index++) {
+                        if (Program.onScreen == MenuRegister.menuregister[index].Item2) {
 
-                        if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Mainmenu) {
-                            MenuRegister.menuregister[index].Item1.ModifyPrivateValue(-1);
+                            if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Mainmenu) {
+                                MenuRegister.menuregister[index].Item1.ModifyPrivateValue(-1);
+                            }
+                            else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
+                                MenuRegister.menuregister[index].Item1.ModifyPrivateValue(1);
+                            }
+                            MenuRegister.menuregister[index].Item1.ToDisplay(Program.display);
                         }
-                        else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
-                            MenuRegister.menuregister[index].Item1.ModifyPrivateValue(1);
-                        }
-                        MenuRegister.menuregister[index].Item1.ToDisplay(Program.display);
                     }
+                }
+                else {
+                    Console.WriteLine(ControlToBeExcecuted.DisplayName);
+                    if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Mainmenu) {
+                        ReviewViewer.ModifyPrivateValue(-1);
+                    }
+                    else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
+                        ReviewViewer.ModifyPrivateValue(1);
+                        Console.WriteLine("Next page executed");
+                    }
+                    ReviewViewer.ToDisplay();
                 }
             }
             else {
@@ -85,6 +98,15 @@ namespace Restaurant_Groep4.Misc {
 
                 MenuRegister.menuregister[4].Item1.ToDisplay(Program.display);
             }
+            else if (Program.onScreen == ScreenEnum.Reviews) {
+
+                ReviewViewer.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.WriteReview) {
+
+                ReviewWriter.ToDisplay();
+            }
+
         }
     }
 }

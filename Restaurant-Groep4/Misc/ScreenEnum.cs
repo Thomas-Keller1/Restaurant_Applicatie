@@ -17,6 +17,7 @@ namespace Restaurant_Groep4.Misc {
         Login,
         Reserveren,
         Reviews,
+        WriteReview,
         Afsluiten
     }
 }
