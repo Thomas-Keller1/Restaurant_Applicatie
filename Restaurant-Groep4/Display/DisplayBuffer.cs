@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurant_Groep4.Display
 {
-    class DisplayBuffer : IDisplayBuffer { //Creating the DisplayBuffer Class That implements the IDisplayBuffer Interface
+    class DisplayBuffer { //Creating the DisplayBuffer Class That implements the IDisplayBuffer Interface
 
         public char[,] Displaybuffer;       //The actual 2 dimentional char array that represents the displaybuffer
         public int DisplayHeight;           //The height of the buffer will be stored here so it can be used outside the constructor later
