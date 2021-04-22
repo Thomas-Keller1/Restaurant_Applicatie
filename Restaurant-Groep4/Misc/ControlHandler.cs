@@ -106,6 +106,13 @@ namespace Restaurant_Groep4.Misc {
 
                 ReviewWriter.ToDisplay();
             }
+            else if (Program.onScreen == ScreenEnum.Reserveren) {
+
+                Reserveren.ToDisplay();
+            } else if (Program.onScreen == ScreenEnum.Januari) {
+
+
+            }
 
         }
     }
