@@ -10,7 +10,7 @@ namespace Restaurant_Groep4.Screens
         public static void ToDisplay()
         {
             Program.display.ClearDisplay();
-            Program.display.AddString(0, 0, $"{new string('=', 33)}Reserveringen{new string('=', 34)}");
+            Program.display.AddString(0, 0, $"{new string('=', 31)}Reserveringen Menu{new string('=', 32)}");
             Program.display.AddString(0, 2, "Januari");
             Program.display.AddString(0, 3, "Februari");
             Program.display.AddString(0, 4, "Maart");
