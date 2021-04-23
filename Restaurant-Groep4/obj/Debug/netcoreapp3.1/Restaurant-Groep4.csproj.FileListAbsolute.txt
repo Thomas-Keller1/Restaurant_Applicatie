@@ -1,48 +1,12 @@
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
-C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
-C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
-<<<<<<< HEAD
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
 D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
-=======
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
-C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
->>>>>>> 6f1e4659e8fc3ece4c6db99ff6ade6fdbe4c7d4c

@@ -17,7 +17,7 @@ namespace Restaurant_Groep4.Screens
             int CurrentY = 0;
             int count = 0;
             int Total = 0;
-            Program.display.AddString(0, CurrentY, $"{new string('=', 35)}maand{new string('=', 36)}");
+            Program.display.AddString(0, CurrentY, $"{new string('=', 33)}Reserveringen{new string('=', 34)}");
             CurrentY += 2;
             foreach (Reservering reservering in Program.Reserveringhandler.Reservering)
             {
@@ -25,13 +25,13 @@ namespace Restaurant_Groep4.Screens
 
                     Program.display.AddString(0, CurrentY, $"#{Total + 1}:");
                     CurrentY++;
-                    Program.display.AddString(0, CurrentY, $"Op naam van: {reservering.Naam}");
+                    Program.display.AddString(0, CurrentY, $"Datum: {reservering.Datum}");
                     CurrentY++;
                     Program.display.AddString(0, CurrentY, $"Tafel: {reservering.Tafel}");
                     CurrentY++;
                     Program.display.AddString(0, CurrentY, $"Aantal personen: {reservering.Personnen}");
                     CurrentY++;
-                    Program.display.AddString(0, CurrentY, $"Datum: {reservering.Datum}");
+                    Program.display.AddString(0, CurrentY, $"Op naam van: {reservering.Naam}");
                     CurrentY++;
                     Total++;
                 }

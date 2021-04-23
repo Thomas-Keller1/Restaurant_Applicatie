@@ -109,9 +109,9 @@ namespace Restaurant_Groep4.Misc {
             else if (Program.onScreen == ScreenEnum.Reserveren) {
 
                 Reserveren.ToDisplay();
-            // } else if (Program.onScreen == ScreenEnum.Januari) {
+            } else if (Program.onScreen == ScreenEnum.ReserveringViewer) {
 
-
+                ReserveringViewer.ToDisplay();
             }
 
         }
