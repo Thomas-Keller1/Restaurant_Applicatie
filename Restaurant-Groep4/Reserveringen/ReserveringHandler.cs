@@ -9,7 +9,7 @@ namespace Restaurant_Groep4.Reservering
 {
     class ReserveringHandler
     {
-        public List<Reservering> Reservering { get; set;}
+        public List<Reservering> Reservering { get; set; }
 
         public ReserveringHandler()
         {
@@ -28,7 +28,7 @@ namespace Restaurant_Groep4.Reservering
 
             if (Reservering.Count == 0)
             {
-                return new Reservering("Niemand", 0,0, new Date(0, 0, 0, 0, 0));
+                return new Reservering("Niemand", 0, 0, new Date(0, 0, 0, 0, 0));
             }
             else if (_index > Reservering.Count - 1)
             {
@@ -62,25 +62,30 @@ namespace Restaurant_Groep4.Reservering
                         if (ReserveringElement.TryGetProperty("Naam", out JsonElement NaamElement) && ReserveringElement.TryGetProperty("Datum", out JsonElement ReserveringDateElement) &&
                             ReserveringElement.TryGetProperty("Tafel", out JsonElement TafelElement) && ReserveringElement.TryGetProperty("Personen", out JsonElement PersonnenElement))
                         {
-
-            
+                            if (ReserveringDateElement.TryGetProperty("Year", out JsonElement YearElement) && ReserveringDateElement.TryGetProperty("Month", out JsonElement MonthElement)
+                                && ReserveringDateElement.TryGetProperty("Day", out JsonElement DayElement) && ReserveringDateElement.TryGetProperty("Hour", out JsonElement HourElement)
+                                && ReserveringDateElement.TryGetProperty("Minute", out JsonElement MinuteElement))
                             {
 
-                                TempListReservering.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new Date(ReserveringDateElement.GetInt32(),ReserveringDateElement.GetInt32(),ReserveringDateElement.GetInt32(),ReserveringDateElement.GetInt32(),ReserveringDateElement.GetInt32())));
+                                {
+
+                                    TempListReservering.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new Date(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32())));
+                                }
                             }
                         }
+                        Reservering = TempListReservering;
                     }
-                    Reservering = TempListReservering;
                 }
             }
         }
+
         private void SaveReservering()
         {
             JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
             string jsonstring = JsonSerializer.Serialize(this, options);
             string dir = Directory.GetCurrentDirectory();
             dir = dir.Substring(0, dir.Length - 23);
-            File.WriteAllText(dir + "Json\\Reserveringem\\" + "Reserveringen" + ".json", jsonstring);
+            File.WriteAllText(dir + "Json\\Reserveringen\\" + "Reserveringen" + ".json", jsonstring);
         }
 
         private void RemoveReservering()
