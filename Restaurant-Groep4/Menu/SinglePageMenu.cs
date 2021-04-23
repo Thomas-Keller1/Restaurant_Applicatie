@@ -4,6 +4,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.IO;
+using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Menu {
 
@@ -76,9 +77,10 @@ namespace Restaurant_Groep4.Menu {
             int currentY = 0;
             int temp = (display.displaybuffer.DisplayWidth / 2) - menuname.Length / 2;
             string tempstring = $"{new string('=', temp)}{menuname}{new string('=', display.displaybuffer.DisplayWidth - (temp + menuname.Length))}";
+            Program.display.controls.Clear();
 
             //display.displaybuffer.EmptyBuffer();
-            display.displaybuffer.ResizeDisplayBuffer(display.displaybuffer.DisplayWidth, LinesNeeded());
+            display.ResizeDisplay(display.displaybuffer.DisplayWidth, LinesNeeded());
             display.AddString(0, currentY, tempstring);
 
             currentY += 2;
@@ -100,11 +102,19 @@ namespace Restaurant_Groep4.Menu {
                     }
                     currentY++;
                     display.AddString(2, currentY, menuitem.description);
-                    currentY += 2;
+                    if (menuitem.description.Length < 78) {
+                        currentY += 2;
+                    }
+                    else {
+                       currentY += (int)menuitem.description.Length / 78;
+                       currentY += 2;
+                    }
+                    //currentY += 2;
                 }
             }
             currentY++;
             display.AddString(0, currentY, new string('=', display.displaybuffer.DisplayWidth));
+            display.AddControl(new Control("Terug", ScreenEnum.Menus, false));
         }
         public int LinesNeeded() {
             int result = 2;
@@ -114,9 +124,20 @@ namespace Restaurant_Groep4.Menu {
                 result += 3;
                 foreach (MenuItem menuitem in menupart.menuitems) {
                     result += 2;
+                    if (menuitem.description.Length < 78) {
+                        result += 1;
+                    }
+                    else {
+                        result += (int)menuitem.description.Length / 78;
+                        result += 1;
+                    }
                 }
             }
             return result + 2;
+        }
+
+        public void ModifyPrivateValue(int modifier) {
+            return;
         }
 
     }
