@@ -70,41 +70,55 @@ namespace Restaurant_Groep4.Misc {
 
         public static void HandleDisplay() {
 
-            if (Program.onScreen == ScreenEnum.Mainmenu) {
+            if (Program.onScreen == ScreenEnum.Mainmenu)
+            {
 
                 Mainmenu.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.Menus) {
+            else if (Program.onScreen == ScreenEnum.Menus)
+            {
 
                 Menus.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.Ontbijtmenu) {
+            else if (Program.onScreen == ScreenEnum.Ontbijtmenu)
+            {
 
                 MenuRegister.menuregister[0].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Lunchmenu) {
+            else if (Program.onScreen == ScreenEnum.Lunchmenu)
+            {
 
                 MenuRegister.menuregister[1].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Dinermenu) {
+            else if (Program.onScreen == ScreenEnum.Dinermenu)
+            {
 
                 MenuRegister.menuregister[2].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Kindermenu) {
+            else if (Program.onScreen == ScreenEnum.Kindermenu)
+            {
 
                 MenuRegister.menuregister[3].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Drankenkaart) {
+            else if (Program.onScreen == ScreenEnum.Drankenkaart)
+            {
 
                 MenuRegister.menuregister[4].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Reviews) {
+            else if (Program.onScreen == ScreenEnum.Reviews)
+            {
 
                 ReviewViewer.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.WriteReview) {
+            else if (Program.onScreen == ScreenEnum.WriteReview)
+            {
 
                 ReviewWriter.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.ContactPagina)
+            {
+
+                Contactpagina.ToDisplay();
             }
 
         }
