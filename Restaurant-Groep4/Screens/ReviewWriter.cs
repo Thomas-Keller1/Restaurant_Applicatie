@@ -15,7 +15,7 @@ namespace Restaurant_Groep4.Screens {
             Program.display.ResizeDisplay(80, 14);
             if (!MakingReview) {
                 DateTime TimeOfReview = DateTime.Now;
-                CurrentReviewHolder.Add(new Review("Anonymous", new Date(TimeOfReview.Year, TimeOfReview.Month, TimeOfReview.Day, TimeOfReview.Hour, TimeOfReview.Minute), "empty", 10));
+                CurrentReviewHolder.Add(new Review("Onbekend", new Date(TimeOfReview.Year, TimeOfReview.Month, TimeOfReview.Day, TimeOfReview.Hour, TimeOfReview.Minute), "empty", 10));
             }
             EditReview();
             Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);

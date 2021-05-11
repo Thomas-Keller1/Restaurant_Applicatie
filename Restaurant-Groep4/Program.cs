@@ -40,7 +40,7 @@ namespace Restaurant_Groep4 {
  
         private static void Update() {                  //Update method
                                                         //Displaying everything in our display to the console
-            Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
+            Console.WriteLine("Voer een cijfer in: ");    //Writing something to the console that is outside our displaybuffer
             UserInput = Console.ReadLine();             //Waiting for user to give input
             if (ControlHandler.IsInputValid()) {        //Checks if the input given is valid by calling the IsInputValid method from our controlhandler
                 ControlHandler.HandleInput();           //Calling the HandleInput method from our controlhandler

@@ -113,6 +113,10 @@ namespace Restaurant_Groep4.Misc {
 
                 ReserveringViewer.ToDisplay();
             }
+            else if (Program.onScreen == ScreenEnum.Afsluiten) {
+
+                Program.running = false;
+            }
 
         }
     }
