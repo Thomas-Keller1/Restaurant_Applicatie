@@ -118,7 +118,10 @@ namespace Restaurant_Groep4.Misc {
             else if (Program.onScreen == ScreenEnum.ContactPagina)
             {
 
-                Contactpagina.ToDisplay();
+                //Contactpagina.ToDisplay();
+            } else if (Program.onScreen == ScreenEnum.Reserveren)
+            {
+                Reserveren.ToDisplay();
             }
 
         }

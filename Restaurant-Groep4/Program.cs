@@ -27,7 +27,7 @@ namespace Restaurant_Groep4 {
         }            
 
         private static void Start() {                   //Start method
-            display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
+            display = new Display.Display(80,20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
             Menu.MenuRegister.RegisterMenus();                          //Call the registermenus method in the Menuregister class
             //Menu.MenuRegister.menuregister[0].Item1.ToDisplay(display); //Making it start with displaying the testmenu(Kindermenu)
