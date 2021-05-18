@@ -7,7 +7,6 @@ using Restaurant_Groep4.Misc;
 namespace Restaurant_Groep4.Screens {
 
     static class Mainmenu {
-
         public static void ToDisplay() {
 
             Program.display.ResizeDisplay(80, 10);
@@ -18,10 +17,10 @@ namespace Restaurant_Groep4.Screens {
             Program.display.AddString(0, 4, "3: Reviews");
             Program.display.AddString(0, 5, "4: Afsluiten");
             Program.display.AddString(0, 6, "5: Menu's");
-            Program.display.AddString(0, 7, "6: Duurzaamheid");
+            Program.display.AddString(0, 7, "6: Duurzaamheid", ConsoleColor.Green);
             Program.display.AddString(0, 9, new string('=', 80));
             Program.display.AddControl(new Control("Inloggen", ScreenEnum.Login, false));
-            Program.display.AddControl(new Control("Reserveren", ScreenEnum.Reserveren, false));
+            Program.display.AddControl(new Control("Reserveren", ScreenEnum.ReserveringSchrijven, false));
             Program.display.AddControl(new Control("Reviews", ScreenEnum.Reviews, false));
             Program.display.AddControl(new Control("Afsluiten", ScreenEnum.Afsluiten, false));
             Program.display.AddControl(new Control("Menu's", ScreenEnum.Menus, false));

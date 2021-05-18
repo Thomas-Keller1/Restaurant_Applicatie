@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Restaurant_Groep4.Misc;
 using Restaurant_Groep4.Screens;
 using Restaurant_Groep4.Reviews;
+using Restaurant_Groep4.Reserveringen;
 
 namespace Restaurant_Groep4 {
     class Program {
@@ -12,6 +13,7 @@ namespace Restaurant_Groep4 {
         public static string UserInput = "";            //Creating a variable to store any user input we get
         public static ScreenEnum onScreen = ScreenEnum.Mainmenu;                          //Create a variable to hold our enum values this will track on which screen we are at every moment
         public static ReviewHandler Reviewhandler = new ReviewHandler();
+        public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 

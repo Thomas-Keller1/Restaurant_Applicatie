@@ -6,4 +6,8 @@
     <RootNamespace>Restaurant_Groep4</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Json\Reserveringen\" />
+  </ItemGroup>
+
 </Project>

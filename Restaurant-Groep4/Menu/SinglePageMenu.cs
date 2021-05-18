@@ -35,7 +35,6 @@ namespace Restaurant_Groep4.Menu {
             dir = dir.Substring(0, dir.Length - 23);
             File.WriteAllText(dir + "Json\\MenuData\\" + menuname + ".json", jsonstring);
         }
-
         private void loadFromJson(string _jsonstring) {
 
             using (JsonDocument document = JsonDocument.Parse(_jsonstring)) {

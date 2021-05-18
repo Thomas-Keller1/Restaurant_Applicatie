@@ -58,7 +58,7 @@ namespace Restaurant_Groep4.Misc {
                     }
                     else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
                         ReviewViewer.ModifyPrivateValue(1);
-                        Console.WriteLine("Next page executed");
+                        //Console.WriteLine("Next page executed");
                     }
                     ReviewViewer.ToDisplay();
                 }
@@ -106,9 +106,14 @@ namespace Restaurant_Groep4.Misc {
 
                 ReviewWriter.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.Reserveren) {
+            else if (Program.onScreen == ScreenEnum.ReserveringSchrijven) {
 
-                Screens.FloorPlan.ToDisplay();
+                //Screens.FloorPlan.ToDisplay();
+                ReserveringWriter.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Afsluiten) {
+
+                Program.running = false;
             }
 
         }

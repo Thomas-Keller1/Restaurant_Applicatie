@@ -28,7 +28,44 @@ namespace Restaurant_Groep4.Display
         }
 
         public void ToConsole() {                               //Display the display into the console
-            Console.WriteLine(displaybuffer.toString());        //convert the displaybuffer to a string and then write the string to the console
+
+            string buffer = displaybuffer.toString();
+            ConsoleColor[] colors = displaybuffer.FlattenColorarray();
+            ConsoleColor col = colors[0];
+            string res = "";
+
+            for (int i = 0; i < buffer.Length; i++) {
+
+                col = colors[i];
+
+                if (i < buffer.Length - 1) {
+                    if (col == colors[i + 1]) {
+
+                        res += buffer[i];
+                    }
+                    else {
+
+                        res += buffer[i];
+                        Console.ForegroundColor = col;
+                        //Console.BackgroundColor = col;
+                        Console.Write(res);
+                        res = "";
+                    }
+                }
+                else {
+                    res += buffer[i];
+                    Console.ForegroundColor = col;
+                    //Console.BackgroundColor = col;
+                    Console.Write(res);
+                    res = "";
+                }
+
+                //Console.ForegroundColor = col;
+                //Console.WriteLine(res);
+                
+            }
+
+            //Console.WriteLine(displaybuffer.toString());        //convert the displaybuffer to a string and then write the string to the console
             Console.WriteLine(ToString(controls));
         }
 
@@ -36,8 +73,8 @@ namespace Restaurant_Groep4.Display
             controls.Add(newcontrol);                           //Adding the control that was taken in to the controls list
         }
 
-        public void AddCharacter(int x, int y, char character) {//Addcharacter method to access from outside this class
-            displaybuffer.AddCharacter(x, y, character);        //Using the AddCharacter method from the DisplayBuffer Class
+        public void AddCharacter(int x, int y, char character, ConsoleColor color = ConsoleColor.White) {//Addcharacter method to access from outside this class
+            displaybuffer.AddCharacter(x, y, character, color);        //Using the AddCharacter method from the DisplayBuffer Class
         }
 
         public void ResizeDisplay(int newwidth, int newheight) {//ResizeDisplay method taking in an int for the new width and an int for the new height
@@ -50,7 +87,7 @@ namespace Restaurant_Groep4.Display
             controls.Clear();                                       //clearing the controls list
         }
 
-        public void AddString(int startX, int startY, string String) {          //Method to add an intire string to the displaybuffer
+        public void AddString(int startX, int startY, string String, ConsoleColor color = ConsoleColor.White) {          //Method to add an intire string to the displaybuffer
 
             for (int i = 0; i < String.Length; i++) {                           //starting a for loop to loop through all the characters in the string
 
@@ -62,7 +99,7 @@ namespace Restaurant_Groep4.Display
                     break;                                                                                                                      //Break the loop
                 }
 
-                displaybuffer.AddCharacter(startX, startY, String[i]);          //if it is all fine call the AddCharacter method from the displaybuffer class with our current x and y and the character we are on
+                displaybuffer.AddCharacter(startX, startY, String[i], color);          //if it is all fine call the AddCharacter method from the displaybuffer class with our current x and y and the character we are on
                 startX++;                                                       //after this increment current x by 1
 
             }
