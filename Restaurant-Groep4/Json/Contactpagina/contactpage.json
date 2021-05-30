@@ -1,0 +1,14 @@
+{
+  "****Contact pagina****": [
+    {
+      "Bedrijfsnaam": "our restaurant",
+      "Email": "contact@Restaurant.nl",
+      "TelefoonNummer": "0031657484333",
+      "Openingstijden": "11:00_00:00",
+      "Locatie": "Aalscholverlaan, 3232RR Rotterdam",
+      "OverOns": "In our restaurant you will find the most delicious food. You have more than 20 options.You can also select the time you want and also the place where you would like to sit",
+      "KlantenService": "Common questions : 1.__How can i reserve a place ?You can do this by choosing the time you want to watch on the main page of the application,then you can choose the chair that suits you and select the payment method,after that you will receive an email with your reservation, your code and your tafel number.2.__ Is it poossible to cancel or change the reservation?Reservation can be changed or canceled 24 hours before the reservation date.for more information, contact us :)"
+
+    }
+  ]
+}

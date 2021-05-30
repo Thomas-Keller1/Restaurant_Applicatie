@@ -55,31 +55,6 @@ namespace Restaurant_Groep4.Reserveringen
             string jsonstring = File.ReadAllText(dir);
             JsonSerializer.Deserialize<List<Reservering>>(jsonstring);
 
-            //using (JsonDocument document = JsonDocument.Parse(jsonstring))
-            //{
-                
-            //    JsonElement root = document.RootElement;
-
-            //    if (root.TryGetProperty("Reserveringen", out JsonElement ReserveringenElement))
-            //    {
-            //        foreach (JsonElement ReviewElement in ReserveringenElement.EnumerateArray())
-            //        {
-
-            //            if (ReviewElement.TryGetProperty("UserName", out JsonElement UsernameElement) && ReviewElement.TryGetProperty("ReviewDate", out JsonElement ReviewdateElement) &&
-            //                ReviewElement.TryGetProperty("Description", out JsonElement DescriptionElement) && ReviewElement.TryGetProperty("Rating", out JsonElement RatingElement))
-            //            {
-
-            //                if (ReviewdateElement.TryGetProperty("Jaar", out JsonElement YearElement) && ReviewdateElement.TryGetProperty("Maand", out JsonElement MonthElement)
-            //                    && ReviewdateElement.TryGetProperty("Dag", out JsonElement DayElement) && ReviewdateElement.TryGetProperty("Uur", out JsonElement HourElement)
-            //                    && ReviewdateElement.TryGetProperty("Minuut", out JsonElement MinuteElement))
-            //                {
-
-            //                    //TempListReserveringen.Add(new Reservering(UsernameElement.GetString(), new Beschikbarereserveringen(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32()), DescriptionElement.GetString(), RatingElement.GetInt32()));
-            //                }
-            //            }
-            //        }
-            //    }
-            //}
         }
     }
 }
