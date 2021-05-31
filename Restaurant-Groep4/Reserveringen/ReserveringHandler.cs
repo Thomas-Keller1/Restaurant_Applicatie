@@ -29,7 +29,7 @@ namespace Restaurant_Groep4.Reserveringen
 
             if (Reservering.Count == 0)
             {
-                return new Reservering("Onbekend", 0, 0, new Date(0, 0, 0, 0, 0));
+                return new Reservering("Anoniem", 0, 0, new Date(0, 0, 0, 0, 0));
             }
             else if (_index > Reservering.Count - 1)
             {

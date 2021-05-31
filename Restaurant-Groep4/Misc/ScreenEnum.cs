@@ -15,6 +15,8 @@ namespace Restaurant_Groep4.Misc {
         Drankenkaart,
         Contactpage,
         Login,
+        Inloggen,
+        AccountMaken,
         Reserveren,
         ReserveringViewer,
         Reviews,
