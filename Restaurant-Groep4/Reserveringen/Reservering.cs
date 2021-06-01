@@ -4,6 +4,7 @@ using System.Text;
 using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Reserveringen {
+
     class Reservering {
 
         public string Naam { get; set; }

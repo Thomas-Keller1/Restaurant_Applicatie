@@ -4,6 +4,7 @@ using Restaurant_Groep4.Misc;
 using Restaurant_Groep4.Screens;
 using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
+using Restaurant_Groep4.UnitTesting;
 
 namespace Restaurant_Groep4 {
     class Program {
@@ -27,6 +28,7 @@ namespace Restaurant_Groep4 {
         }            
 
         private static void Start() {                   //Start method
+            Reviews_testers.GetReview_Test();
             display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
             Menu.MenuRegister.RegisterMenus();                          //Call the registermenus method in the Menuregister class

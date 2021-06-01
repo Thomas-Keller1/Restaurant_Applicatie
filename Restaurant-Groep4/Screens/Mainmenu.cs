@@ -14,6 +14,7 @@ namespace Restaurant_Groep4.Screens {
             Program.display.AddString(0, 0, $"{new string('=', 35)}Main menu{new string('=', 36)}");
             Program.display.AddString(0, 2, "1: Inloggen");
             Program.display.AddString(0, 3, "2: Reserveren");
+            //Program.display.SetColor(3, 3, 13, ConsoleColor.Red);
             Program.display.AddString(0, 4, "3: Reviews");
             Program.display.AddString(0, 5, "4: Afsluiten");
             Program.display.AddString(0, 6, "5: Menu's");

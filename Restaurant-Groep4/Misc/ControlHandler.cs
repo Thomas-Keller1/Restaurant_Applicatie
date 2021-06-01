@@ -108,7 +108,8 @@ namespace Restaurant_Groep4.Misc {
             }
             else if (Program.onScreen == ScreenEnum.ReserveringSchrijven) {
 
-                //Screens.FloorPlan.ToDisplay();
+                FloorPlan.ToDisplay();
+                Program.display.ToConsole();
                 ReserveringWriter.ToDisplay();
             }
             else if (Program.onScreen == ScreenEnum.Afsluiten) {

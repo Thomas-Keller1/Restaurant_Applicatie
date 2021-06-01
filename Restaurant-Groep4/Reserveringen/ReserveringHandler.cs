@@ -8,35 +8,39 @@ using System.IO;
 
 namespace Restaurant_Groep4.Reserveringen {
     class ReserveringHandler {
-        public List<Reservering> Reservering { get; set; }
+        public List<Reservering> Reserveringen { get; set; }
+        public Table[] Tables;
 
         public ReserveringHandler() {
 
-            Reservering = new List<Reservering>();
+            Reserveringen = new List<Reservering>();
+            Tables = new Table[15] {new Table(true, 2), new Table(true, 4), new Table(true, 2), new Table(true, 6), new Table(true, 4), new Table(true, 2), new Table(true, 2), new Table(true, 4), new Table(true, 2), new Table(true, 6), new Table(true, 4), new Table(true, 4), new Table(true, 2), new Table(true, 2), new Table(true, 2)};
             GetReserveringContents();
         }
 
         public void AddReservering(Reservering _reservering) {
 
-            Reservering.Add(_reservering);
+            Reserveringen.Add(_reservering);
+            Tables[_reservering.Tafel - 1].Available = false;
             SaveReservering();
         }
 
         public Reservering GetReservering(int _index) {
 
-            if (Reservering.Count == 0) {
+            if (Reserveringen.Count == 0) {
 
                 return new Reservering("Niemand", 0, 0, new Date(0, 0, 0, 0, 0));
             }
-            else if (_index > Reservering.Count - 1) {
+            else if (_index > Reserveringen.Count - 1) {
 
-                return Reservering[0];
+                return Reserveringen[0];
             }
             else {
 
-                return Reservering[_index];
+                return Reserveringen[_index];
             }
         }
+
         private void GetReserveringContents() {
 
             string dir = Directory.GetCurrentDirectory();
@@ -48,25 +52,26 @@ namespace Restaurant_Groep4.Reserveringen {
 
                 JsonElement root = document.RootElement;
 
-                if (root.TryGetProperty("Reservering", out JsonElement ReserveringsElement)) {
+                if (root.TryGetProperty("Reserveringen", out JsonElement ReserveringsElement)) {
 
-                    List<Reservering> TempListReservering = new List<Reservering>();
+                    List<Reservering> TempListReserveringen = new List<Reservering>();
 
                     foreach (JsonElement ReserveringElement in ReserveringsElement.EnumerateArray()) {
 
                         if (ReserveringElement.TryGetProperty("Naam", out JsonElement NaamElement) && ReserveringElement.TryGetProperty("Datum", out JsonElement ReserveringDateElement) &&
-                            ReserveringElement.TryGetProperty("Tafel", out JsonElement TafelElement) && ReserveringElement.TryGetProperty("Personen", out JsonElement PersonnenElement)) {
+                            ReserveringElement.TryGetProperty("Tafel", out JsonElement TafelElement) && ReserveringElement.TryGetProperty("Personnen", out JsonElement PersonnenElement)) {
 
                             if (ReserveringDateElement.TryGetProperty("Year", out JsonElement YearElement) && ReserveringDateElement.TryGetProperty("Month", out JsonElement MonthElement)
                                 && ReserveringDateElement.TryGetProperty("Day", out JsonElement DayElement) && ReserveringDateElement.TryGetProperty("Hour", out JsonElement HourElement)
                                 && ReserveringDateElement.TryGetProperty("Minute", out JsonElement MinuteElement)) {
 
-                                TempListReservering.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new Date(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32())));
-                                
+                                TempListReserveringen.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new Date(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32())));
+                                Tables[TempListReserveringen[TempListReserveringen.Count - 1].Tafel - 1].Available = false;
+
                             }
                         }
-                        Reservering = TempListReservering;
                     }
+                    Reserveringen = TempListReserveringen;
                 }
             }
         }
