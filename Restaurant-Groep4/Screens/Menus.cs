@@ -6,7 +6,7 @@ using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Screens {
 
-    static class Menus {
+    public static class Menus {
 
         public static void ToDisplay() {
 

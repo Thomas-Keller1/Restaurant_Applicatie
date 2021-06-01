@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurant_Groep4.Menu {
 
-    interface IMenu {                           //creating an interface called IMenu
+    public interface IMenu {                           //creating an interface called IMenu
 
         //All interface methods and properties are public
         List<MenuPart> menuparts {get; set;}    //each menu class has a list of menuparts

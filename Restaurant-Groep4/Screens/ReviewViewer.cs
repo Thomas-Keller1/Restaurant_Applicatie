@@ -5,7 +5,7 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Screens {
-    class ReviewViewer {
+    public static class ReviewViewer {
 
         private static int OnPage = 1;
         private static int ReviewsPerPage = 5;

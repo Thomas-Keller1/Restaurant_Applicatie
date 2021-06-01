@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Restaurant_Groep4.Display
-{
-    class DisplayBuffer { //Creating the DisplayBuffer Class That implements the IDisplayBuffer Interface
+namespace Restaurant_Groep4.Display {
+    public class DisplayBuffer { //Creating the DisplayBuffer Class That implements the IDisplayBuffer Interface
 
         public char[,] Displaybuffer;       //The actual 2 dimentional char array that represents the displaybuffer
         public int DisplayHeight;           //The height of the buffer will be stored here so it can be used outside the constructor later
@@ -37,9 +36,18 @@ namespace Restaurant_Groep4.Display
             return result;                                  //returning the result
         }
 
-        //public void SetColor() {
-        //
-        //}
+        public void SetColor(int startX, int Y, int endX, ConsoleColor color) {
+
+            for (int i = startX; i < endX; i++) {
+
+                if (i >= DisplayWidth || Y >= DisplayHeight || i < 0 || Y < 0) {
+                    return;
+                }
+
+                DisplayColors[Y, i] = color;
+            }
+            
+        }
 
         public ConsoleColor[] FlattenColorarray() {
 
@@ -62,10 +70,18 @@ namespace Restaurant_Groep4.Display
             DisplayColors = new ConsoleColor[DisplayWidth, DisplayHeight];
         }
 
-        public void AddCharacter(int x, int y, char character, ConsoleColor color = ConsoleColor.White) { //implementing the AddCharacter method from the interface IDisplayBuffer
+        public void AddCharacter(int x, int y, char character, ConsoleColor color) { //implementing the AddCharacter method from the interface IDisplayBuffer
 
             Displaybuffer[y, x] = character;                //add the character at the specified location
             DisplayColors[y, x] = color;
+        }
+
+        public void AddCharacter(int x, int y, char character) { //implementing the AddCharacter method from the interface IDisplayBuffer
+
+            if (x >= 0 && x < DisplayWidth && y >= 0 && y < DisplayHeight) {
+                Displaybuffer[y, x] = character;                //add the character at the specified location
+                DisplayColors[y, x] = ConsoleColor.White;
+            }
         }
 
         public void ResizeDisplayBuffer(int newwidth, int newheight) {  //implementing the ResizeDisplayBuffer method from the interface IDisplayBuffer

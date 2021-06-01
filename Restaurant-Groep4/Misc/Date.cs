@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Restaurant_Groep4.Misc {
-    class Date {
+    public class Date {
 
         public int Year {get; set;}
         public int Month {get; set;}

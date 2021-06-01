@@ -6,7 +6,7 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
 
 namespace Restaurant_Groep4 {
-    class Program {
+    public class Program {
 
         public static bool running = true;              //Creating a public static variable that keeps the main program loop going
         public static Display.Display display;          //Creating a variable to hold our display
@@ -26,7 +26,8 @@ namespace Restaurant_Groep4 {
 
         }            
 
-        private static void Start() {                   //Start method
+        public static void Start() {                   //Start method
+            //Reviews_testers.GetReview_Test();
             display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
             Menu.MenuRegister.RegisterMenus();                          //Call the registermenus method in the Menuregister class

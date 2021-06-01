@@ -8,7 +8,10 @@ using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Menu {
 
-    class SinglePageMenu : IMenu {
+    public class SinglePageMenu : IMenu {
+
+
+        //Eigen code snippets bestand maken voor 1 juni
 
         public List<MenuPart> menuparts {get; set;}
         public string menuname {get; set;}
