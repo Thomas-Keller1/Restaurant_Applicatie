@@ -5,7 +5,7 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Screens {
-    class ReviewWriter {
+    public static class ReviewWriter {
 
         public static List<Review> CurrentReviewHolder = new List<Review>();
         public static bool MakingReview = false;
@@ -13,12 +13,12 @@ namespace Restaurant_Groep4.Screens {
         public static void ToDisplay() {
 
             Program.display.ResizeDisplay(80, 14);
-            if (!MakingReview) {
-                DateTime TimeOfReview = DateTime.Now;
-                CurrentReviewHolder.Add(new Review("Anoniem", new Date(TimeOfReview.Year, TimeOfReview.Month, TimeOfReview.Day, TimeOfReview.Hour, TimeOfReview.Minute), "empty", 10));
-            }
+            //if (!MakingReview) {
+            //    DateTime TimeOfReview = DateTime.Now;
+            //    CurrentReviewHolder.Add(new Review("Anonymous", new Date(TimeOfReview.Year, TimeOfReview.Month, TimeOfReview.Day, TimeOfReview.Hour, TimeOfReview.Minute), "empty", 10));
+            //}
             EditReview();
-            Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
+            //Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
             Program.display.AddString(0, 0, $"{new string('=', 31)}Schrijf een Review{new string('=', 31)}");
             Program.display.AddString(0, 2, $"Jouw huidige review");
             Program.display.AddString(0, 4, $"Geschreven door: {CurrentReviewHolder[0].UserName}");
@@ -36,6 +36,9 @@ namespace Restaurant_Groep4.Screens {
 
         public static void EditReview() {
 
+            DateTime TimeOfReview = DateTime.Now;
+            CurrentReviewHolder.Add(new Review("Anonymous", new Date(TimeOfReview.Year, TimeOfReview.Month, TimeOfReview.Day, TimeOfReview.Hour, TimeOfReview.Minute), "empty", 10));
+
             Console.WriteLine("Geef een cijfer van 1 tot 10: ");
             string input = Console.ReadLine();
             int g = 0;
@@ -47,8 +50,12 @@ namespace Restaurant_Groep4.Screens {
             Console.WriteLine("Geef een beschrijving: ");
             input = Console.ReadLine();
 
+            //Console.WriteLine($"{g}, {input}");
+
             CurrentReviewHolder[0].Rating = g;
             CurrentReviewHolder[0].Description = input;
+
+            Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
         }
     }
 }

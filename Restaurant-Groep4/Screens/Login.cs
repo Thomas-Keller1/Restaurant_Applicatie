@@ -21,4 +21,3 @@ namespace Restaurant_Groep4.Screens
         }
     }
 }
-

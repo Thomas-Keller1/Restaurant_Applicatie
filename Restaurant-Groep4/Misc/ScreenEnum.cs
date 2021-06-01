@@ -5,7 +5,7 @@ using System.Text;
 namespace Restaurant_Groep4.Misc {
 
     public enum ScreenEnum {
-    
+
         Mainmenu,
         Menus,
         Kindermenu,
@@ -17,8 +17,7 @@ namespace Restaurant_Groep4.Misc {
         Login,
         Inloggen,
         AccountMaken,
-        Reserveren,
-        ReserveringViewer,
+        ReserveringSchrijven,
         Reviews,
         WriteReview,
         Afsluiten

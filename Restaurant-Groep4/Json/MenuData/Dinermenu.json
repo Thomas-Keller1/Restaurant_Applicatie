@@ -156,7 +156,7 @@
         {
           "name": "Champignonsoep",
           "price": 595,
-          "description": "Rommige soep gemaakt op basis van champignons",
+          "description": "",
           "vegetarian": true,
           "vegan": false
         }

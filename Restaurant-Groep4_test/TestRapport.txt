@@ -1,0 +1,110 @@
+AddCharacter Test: 
+__________________________________________________
+Character at 66, 14 successfully set to A
+Character at 66, 14 is the intended character A
+Character at 32, 14 successfully set to U
+Character at 32, 14 is the intended character U
+Character at 91, 25 successfully set to P
+Character at 91, 25 is not within the display size of 80, 20
+Character at 88, 2 successfully set to F
+Character at 88, 2 is not within the display size of 80, 20
+Character at 36, 14 successfully set to >
+Character at 36, 14 is the intended character >
+AddControl Test: 
+__________________________________________________
+Control successfully added
+Control successfully added
+
+8 controls available expected 8
+
+AddString Test: 
+__________________________________________________
+String at 93, 2 successfully set to F
+Character at 93, 2 is not within the display size of 80, 20
+String at 53, 20 successfully set to T
+Character at 53, 20 is not within the display size of 80, 20
+String at 97, 2 successfully set to J
+Character at 97, 2 is not within the display size of 80, 20
+String at 68, 1 successfully set to G
+Character at 68, 1 is the intended character G
+String at 55, 1 successfully set to ?
+Character at 55, 1 is the intended character ?
+SetColor Test: 
+__________________________________________________
+Color successfully set
+Color at 26, 10 is the intended color red
+Color successfully set
+Color at 87, 20 is not within the display size of 80, 20
+Color successfully set
+Color at 4, 20 is not within the display size of 80, 20
+Color successfully set
+Color at 85, 24 is not within the display size of 80, 20
+Color successfully set
+Color at -2, 27 is not within the display size of 80, 20
+EditReview Test: 
+__________________________________________________
+All 7 reviews successfully placed in the list
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+FloorPlan ToDisplay Test: 
+__________________________________________________
+expected ■ got ■
+expected / got /
+expected T got T
+
+GetReview Test: 
+__________________________________________________
+Got expected review by Anonymous by using the index 7
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 14
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 5
+Got expected review by Anonymous by using the index 14
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 9
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 6
+Got expected review by Anonymous by using the index 19
+Got expected review by Anonymous by using the index 11
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 5
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 3
+Got expected review by Anonymous by using the index 17
+Got expected review by Anonymous by using the index 2
+Got expected review by Anonymous by using the index 17
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 3
+Got expected review by Anonymous by using the index 14
+
+
+ Success percentage: 100% - Success/fail ratio: 30/0
+__________________________________________________
+Linesneeded Test: 
+__________________________________________________
+expected 71 got 71
+expected 49 got 49
+expected 61 got 61
+expected 70 got 70
+Resize display Test: 
+__________________________________________________
+expected 23, 81 got 23, 81
+Reviewviewer ToDisplay Test: 
+__________________________________________________
+expected # got #
+expected : got :
+expected h got h

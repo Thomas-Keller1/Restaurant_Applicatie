@@ -6,16 +6,14 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
 
 namespace Restaurant_Groep4 {
-    class Program {
+    public class Program {
 
         public static bool running = true;              //Creating a public static variable that keeps the main program loop going
         public static Display.Display display;          //Creating a variable to hold our display
         public static string UserInput = "";            //Creating a variable to store any user input we get
         public static ScreenEnum onScreen = ScreenEnum.Mainmenu;                          //Create a variable to hold our enum values this will track on which screen we are at every moment
         public static ReviewHandler Reviewhandler = new ReviewHandler();
-
         public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
-
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 
@@ -28,7 +26,8 @@ namespace Restaurant_Groep4 {
 
         }            
 
-        private static void Start() {                   //Start method
+        public static void Start() {                   //Start method
+            //Reviews_testers.GetReview_Test();
             display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)
             Menu.MenuRegister.RegisterMenus();                          //Call the registermenus method in the Menuregister class
@@ -40,7 +39,7 @@ namespace Restaurant_Groep4 {
  
         private static void Update() {                  //Update method
                                                         //Displaying everything in our display to the console
-            Console.WriteLine("Voer een cijfer in: ");    //Writing something to the console that is outside our displaybuffer
+            Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
             UserInput = Console.ReadLine();             //Waiting for user to give input
             if (ControlHandler.IsInputValid()) {        //Checks if the input given is valid by calling the IsInputValid method from our controlhandler
                 ControlHandler.HandleInput();           //Calling the HandleInput method from our controlhandler
