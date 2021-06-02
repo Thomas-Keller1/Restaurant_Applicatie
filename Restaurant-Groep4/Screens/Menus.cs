@@ -6,12 +6,13 @@ using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Screens {
 
-    static class Menus {
+    public static class Menus {
 
         public static void ToDisplay() {
 
-            Program.display.ResizeDisplay(80, 9);
-            Program.display.AddString(0, 0, $"{new string('=', 37)}Menu's{new string('=', 37)}");
+            Program.display.ResizeDisplay(91, 10);
+            Program.display.AddString(0, 0, "Al onze producten zijn afkomstig van lokale boerderijen om klimaatverandering tegen te gaan", ConsoleColor.Green);
+            Program.display.AddString(0, 1, $"{new string('=', 37)}Menu's{new string('=', 37)}");
             Program.display.AddString(0, 2, "1: Ontbijtmenu");
             Program.display.AddString(0, 3, "2: Lunchmenu");
             Program.display.AddString(0, 4, "3: Dinermenu");

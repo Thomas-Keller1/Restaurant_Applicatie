@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurant_Groep4.Menu {
 
-    class MenuItem {                        //creating a menuitem class
+    public class MenuItem {                        //creating a menuitem class
 
         public string name {get; set;}      //create the property name of type string
         public int price {get; set;}        //create the property price of type int

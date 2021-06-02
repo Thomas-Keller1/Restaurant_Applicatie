@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 using System.IO;
 
 namespace Restaurant_Groep4.Reviews {
-    class ReviewHandler {
+    public class ReviewHandler {
 
         public List<Review> Reviews {get; set;}
 

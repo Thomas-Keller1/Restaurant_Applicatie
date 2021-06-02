@@ -6,7 +6,7 @@ using Restaurant_Groep4.Menu;
 using Restaurant_Groep4.Screens;
 
 namespace Restaurant_Groep4.Misc {
-    class ControlHandler {
+    public class ControlHandler {
 
         public static bool IsInputValid() {
             if (String.IsNullOrEmpty(Program.UserInput)) {                                                                                                      
@@ -58,7 +58,7 @@ namespace Restaurant_Groep4.Misc {
                     }
                     else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
                         ReviewViewer.ModifyPrivateValue(1);
-                        Console.WriteLine("Next page executed");
+                        //Console.WriteLine("Next page executed");
                     }
                     ReviewViewer.ToDisplay();
                 }
@@ -105,6 +105,27 @@ namespace Restaurant_Groep4.Misc {
             else if (Program.onScreen == ScreenEnum.WriteReview) {
 
                 ReviewWriter.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.ReserveringSchrijven) {
+
+                FloorPlan.ToDisplay();
+                Program.display.ToConsole();
+                ReserveringWriter.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Afsluiten) {
+
+                Program.running = false;
+            }
+            else if (Program.onScreen == ScreenEnum.Login) {
+
+                Login.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Inloggen) {
+
+                InlogPagina.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.AccountMaken) {
+                AccountMaken.ToDispaly();
             }
 
         }
