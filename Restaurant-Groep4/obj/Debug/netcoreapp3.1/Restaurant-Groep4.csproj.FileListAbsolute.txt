@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
 C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
 C:\Users\Paran\source\repos\Restaurant-Groep4\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
@@ -30,6 +31,21 @@ C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+=======
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
+D:\Documenten\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
+>>>>>>> Stashed changes
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
 C:\Users\Lamis Al Aswad\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
