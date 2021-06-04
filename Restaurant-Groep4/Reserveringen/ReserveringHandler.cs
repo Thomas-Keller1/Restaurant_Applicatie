@@ -29,7 +29,7 @@ namespace Restaurant_Groep4.Reserveringen {
 
             if (Reserveringen.Count == 0) {
 
-                return new Reservering("Niemand", 0, 0, new Date(0, 0, 0, 0, 0));
+                return new Reservering("Niemand", 0, 0, new DateTime());
             }
             else if (_index > Reserveringen.Count - 1) {
 
@@ -65,7 +65,7 @@ namespace Restaurant_Groep4.Reserveringen {
                                 && ReserveringDateElement.TryGetProperty("Day", out JsonElement DayElement) && ReserveringDateElement.TryGetProperty("Hour", out JsonElement HourElement)
                                 && ReserveringDateElement.TryGetProperty("Minute", out JsonElement MinuteElement)) {
 
-                                TempListReserveringen.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new Date(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32())));
+                                TempListReserveringen.Add(new Reservering(NaamElement.GetString(), TafelElement.GetInt32(), PersonnenElement.GetInt32(), new DateTime(YearElement.GetInt32(), MonthElement.GetInt32(), DayElement.GetInt32(), HourElement.GetInt32(), MinuteElement.GetInt32(), 0)));
                                 Tables[TempListReserveringen[TempListReserveringen.Count - 1].Tafel - 1].Available = false;
 
                             }

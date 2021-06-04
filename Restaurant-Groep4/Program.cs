@@ -4,6 +4,10 @@ using Restaurant_Groep4.Misc;
 using Restaurant_Groep4.Screens;
 using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
+using Restaurant_Groep4.Contactpagina;
+using Restaurant_Groep4.Inloggen;
+using System.Text.Json;
+using System.IO;
 
 namespace Restaurant_Groep4 {
     public class Program {
@@ -14,6 +18,9 @@ namespace Restaurant_Groep4 {
         public static ScreenEnum onScreen = ScreenEnum.Mainmenu;                          //Create a variable to hold our enum values this will track on which screen we are at every moment
         public static ReviewHandler Reviewhandler = new ReviewHandler();
         public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
+        public static ContactpaginaHandler ContactpaginaHandler = new ContactpaginaHandler();
+        
+        public static InlogHandler Inloghandler = new InlogHandler();
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 
@@ -27,6 +34,7 @@ namespace Restaurant_Groep4 {
         }            
 
         public static void Start() {                   //Start method
+
             //Reviews_testers.GetReview_Test();
             display = new Display.Display(80, 20);      //Setting the display variable to a new instance of our Display class
             Console.OutputEncoding = System.Text.Encoding.UTF8; //To enable unicode characters in the console (Characters such as: €, Ⓥ)

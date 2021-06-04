@@ -45,7 +45,7 @@ namespace Restaurant_Groep4.Screens
                 datumInput = Console.ReadLine();
                 firstTime = false;
             }
-            Program.Reserveringhandler.Addreservering(new Reservering{Naam = naam, Tafel = tafel, Personen = personen, Datum = datum});
+            Program.Reserveringhandler.AddReservering(new Reservering(naam, tafel, personen, datum));
             Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
         }
     }

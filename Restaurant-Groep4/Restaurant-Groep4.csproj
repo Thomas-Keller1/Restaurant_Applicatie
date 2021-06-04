@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Json\Accounts\NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Json\Reserveringen\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Json\Accounts\Accounts.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

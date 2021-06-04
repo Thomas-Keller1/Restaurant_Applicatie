@@ -9,7 +9,7 @@ using System.Text.Json.Serialization;
 
 namespace Restaurant_Groep4.Contactpagina
 {
-    class Contactpagina
+    public class Contactpagina
     {
 
         /*static void Main(string[] args)

@@ -9,14 +9,14 @@ namespace Restaurant_Groep4.Reserveringen {
 
         public string Naam { get; set; }
         public int Tafel { get; set; }
-        public int Personnen { get; set; }
-        public Date Datum { get; set; }
+        public int Personen { get; set; }
+        public DateTime Datum { get; set; }
 
-        public Reservering(string _naam, int _tafel, int _personnen, Date _datum) {
+        public Reservering(string _naam, int _tafel, int _personen, DateTime _datum) {
 
             Naam = _naam;
             Tafel = _tafel;
-            Personnen = _personnen;
+            Personen = _personen;
             Datum = _datum;
         }
 

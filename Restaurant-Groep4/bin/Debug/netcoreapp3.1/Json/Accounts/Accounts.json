@@ -1,0 +1,16 @@
+[
+  {
+    "GebruikersNaam": "Admin",
+    "Wachtwoord": "Admin123!",
+    "Naam": "Admin",
+    "Email": "Admin.permission@gmail.com",
+    "Admin": true
+  },
+  {
+    "GebruikersNaam": "Admin",
+    "Wachtwoord": "Adminre",
+    "Naam": "lamis",
+    "Email": "ldhghdbcdc@dfdjfr",
+    "Admin": false
+  }
+]

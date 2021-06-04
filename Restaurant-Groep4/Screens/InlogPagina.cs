@@ -9,8 +9,6 @@ namespace Restaurant_Groep4.Screens
 {
     static class InlogPagina
     {
-        public static List<Account> CurrentPersonHolder = new List<Account>();
-
         public static void ToDisplay()
         {
             Program.display.ResizeDisplay(80, 9);
@@ -37,16 +35,20 @@ namespace Restaurant_Groep4.Screens
 
         public static void EditLogin()
         {
-            CurrentPersonHolder.Add(new Account("", "", "", ""));
-
             Console.WriteLine("Voer een gebruikersnaam in:");
             string gebruikersnaam = Console.ReadLine();
 
             Console.WriteLine("Voer een wachtwoord in:");
             string wachtwoord = Console.ReadLine();
 
-            CurrentPersonHolder[0].GebruikersNaam = gebruikersnaam;
-            CurrentPersonHolder[0].Wachtwoord = wachtwoord;
+            if (Program.Inloghandler.Login(gebruikersnaam, wachtwoord))
+            {
+                Console.WriteLine("succesvol ingelogd");
+            }
+            else
+            {
+                Console.WriteLine("niet ingelogd");
+            }
         }
     }
 

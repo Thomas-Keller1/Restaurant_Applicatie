@@ -1,0 +1,9 @@
+﻿[
+  {
+    "GebruikersNaam": "Admin",
+    "Wachtwoord": "Admin123!",
+    "Naam": "Admin",
+    "Email": "Admin.permission@gmail.com",
+    "Admin": true
+  }
+]

@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Restaurant_Groep4.Contactpagina
 {
-    class ContactpaginaHandler
+    public class ContactpaginaHandler
     {
         public List<Contactpagina> ContactPagina { get; set; }
 
