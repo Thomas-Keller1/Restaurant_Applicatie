@@ -8,7 +8,10 @@ using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Menu {
 
-    class SinglePageMenu : IMenu {
+    public class SinglePageMenu : IMenu {
+
+
+        //Eigen code snippets bestand maken voor 1 juni
 
         public List<MenuPart> menuparts {get; set;}
         public string menuname {get; set;}
@@ -35,7 +38,6 @@ namespace Restaurant_Groep4.Menu {
             dir = dir.Substring(0, dir.Length - 23);
             File.WriteAllText(dir + "Json\\MenuData\\" + menuname + ".json", jsonstring);
         }
-
         private void loadFromJson(string _jsonstring) {
 
             using (JsonDocument document = JsonDocument.Parse(_jsonstring)) {

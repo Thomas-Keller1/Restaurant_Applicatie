@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Restaurant_Groep4.Misc {
-    class Control {
+    public class Control {
 
         public string DisplayName {get; set;}
         public ScreenEnum ToDisplay {get; set;}

@@ -6,7 +6,7 @@ using Restaurant_Groep4.Menu;
 using Restaurant_Groep4.Screens;
 
 namespace Restaurant_Groep4.Misc {
-    class ControlHandler {
+    public class ControlHandler {
 
         public static bool IsInputValid() {
             if (String.IsNullOrEmpty(Program.UserInput)) {                                                                                                      
@@ -58,7 +58,7 @@ namespace Restaurant_Groep4.Misc {
                     }
                     else if (ControlToBeExcecuted.ToDisplay == ScreenEnum.Menus) {
                         ReviewViewer.ModifyPrivateValue(1);
-                        Console.WriteLine("Next page executed");
+                        //Console.WriteLine("Next page executed");
                     }
                     ReviewViewer.ToDisplay();
                 }
@@ -70,57 +70,62 @@ namespace Restaurant_Groep4.Misc {
 
         public static void HandleDisplay() {
 
-            if (Program.onScreen == ScreenEnum.Mainmenu)
-            {
+            if (Program.onScreen == ScreenEnum.Mainmenu) {
 
                 Mainmenu.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.Menus)
-            {
+            else if (Program.onScreen == ScreenEnum.Menus) {
 
                 Menus.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.Ontbijtmenu)
-            {
+            else if (Program.onScreen == ScreenEnum.Ontbijtmenu) {
 
                 MenuRegister.menuregister[0].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Lunchmenu)
-            {
+            else if (Program.onScreen == ScreenEnum.Lunchmenu) {
 
                 MenuRegister.menuregister[1].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Dinermenu)
-            {
+            else if (Program.onScreen == ScreenEnum.Dinermenu) {
 
                 MenuRegister.menuregister[2].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Kindermenu)
-            {
+            else if (Program.onScreen == ScreenEnum.Kindermenu) {
 
                 MenuRegister.menuregister[3].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Drankenkaart)
-            {
+            else if (Program.onScreen == ScreenEnum.Drankenkaart) {
 
                 MenuRegister.menuregister[4].Item1.ToDisplay(Program.display);
             }
-            else if (Program.onScreen == ScreenEnum.Reviews)
-            {
+            else if (Program.onScreen == ScreenEnum.Reviews) {
 
                 ReviewViewer.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.WriteReview)
-            {
+            else if (Program.onScreen == ScreenEnum.WriteReview) {
 
                 ReviewWriter.ToDisplay();
             }
-            else if (Program.onScreen == ScreenEnum.ContactPagina)
-            {
-                ContactInfo.ToDisplay();
-            } else if (Program.onScreen == ScreenEnum.Reserveren)
-            {
-                Reserveren.ToDisplay();
+            else if (Program.onScreen == ScreenEnum.ReserveringSchrijven) {
+
+                FloorPlan.ToDisplay();
+                Program.display.ToConsole();
+                ReserveringWriter.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Afsluiten) {
+
+                Program.running = false;
+            }
+            else if (Program.onScreen == ScreenEnum.Login) {
+
+                Login.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Inloggen) {
+
+                InlogPagina.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.AccountMaken) {
+                AccountMaken.ToDispaly();
             }
 
         }
