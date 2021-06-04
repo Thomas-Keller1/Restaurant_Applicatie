@@ -5752,23 +5752,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Paran\\.nuget\\packages\\": {},
+    "C:\\Users\\Lamis Al Aswad\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paran\\Documents\\BackupGit\\Restaurant_Applicatie\\Restaurant-Groep4_test\\Restaurant-Groep4_test.csproj",
+      "projectUniqueName": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4_test\\Restaurant-Groep4_test.csproj",
       "projectName": "Restaurant-Groep4_test",
-      "projectPath": "C:\\Users\\Paran\\Documents\\BackupGit\\Restaurant_Applicatie\\Restaurant-Groep4_test\\Restaurant-Groep4_test.csproj",
-      "packagesPath": "C:\\Users\\Paran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paran\\Documents\\BackupGit\\Restaurant_Applicatie\\Restaurant-Groep4_test\\obj\\",
+      "projectPath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4_test\\Restaurant-Groep4_test.csproj",
+      "packagesPath": "C:\\Users\\Lamis Al Aswad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4_test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Paran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lamis Al Aswad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5783,8 +5783,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Paran\\Documents\\BackupGit\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {
-              "projectPath": "C:\\Users\\Paran\\Documents\\BackupGit\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj"
+            "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj": {
+              "projectPath": "C:\\Users\\Lamis Al Aswad\\Documents\\GitHub\\Restaurant_Applicatie\\Restaurant-Groep4\\Restaurant-Groep4.csproj"
             }
           }
         }
