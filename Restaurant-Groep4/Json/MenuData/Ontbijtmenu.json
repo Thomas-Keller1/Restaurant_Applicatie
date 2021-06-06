@@ -7,71 +7,111 @@
           "name": "Pannenkoeken met stroop",
           "price": 595,
           "description": "Vers gebakken pannenkoeken met stroop",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": true,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Croissantjes met beleg",
           "price": 475,
           "description": "Vers gebakken croissantjes met beleg naar keuze (Ham, kaas, jam, boter, chocolade pasta)",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": true,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": true
         },
         {
           "name": "Broodje boerenomelet",
           "price": 365,
           "description": "Heerlijke boerenomelet uit de keuken met een broodje naar keuze (Wit pistoletje, Volkeren pistoletje, kaiserbroodje, Italiaanse bol)",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": false,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Maaltijdsalade",
           "price": 495,
           "description": "Heerlijke salade met ei, olijven en kaasblokjes",
           "vegetarian": true,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": true,
+          "dieren": false
         },
         {
           "name": "Avocado met toast",
           "price": 365,
           "description": "Heerlijke avocado plakjes met vergebakken toast",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": true,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Schaal yoghurt met granola, honing en twee fruitsoorten",
           "price": 365,
           "description": "Verse boere yoghurt met twee verse fruitsoorten en geserveerd met een splash of honey (Aardbeien, Druiven, Frambozen, Blauwe bessen, Banaan, Ananas, Appel)",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "American pancakes",
           "price": 525,
           "description": "Heerlijke american pancakes geserveerd met honing of stroop en daarbij afgetopt met poedersuiker en een klontje boter",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": false,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Bagel met zalm",
           "price": 475,
           "description": "Oven gebakken bagels met roomkaas, dille en heerlijke plakjes zalm (meergranen, wit, bruin)",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": true
         },
         {
           "name": "Egg benedict met toast",
           "price": 295,
           "description": "Egg benedict met 2 plakjes toast en een beetje sla(meergranen, wit, bruin)",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": false,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Broodjes met beleg",
           "price": 250,
           "description": "Oven gebakken broodjes met heerlijk zelf gekozen beleg (Wit pistoletje, Volkeren pistoletje, kaiserbroodje, Italiaanse bol) (Ham, kaas, jam, boter, chocolade pasta)",
-          "vegetarian": false,
-          "vegan": false
+          "vegetarian": true,
+          "vegan": true,
+          "gluten": true,
+          "zuivel": true,
+          "noten": false,
+          "dieren": true
         }
       ]
     },
@@ -84,56 +124,88 @@
           "price": 275,
           "description": "Vers gemalen koffie bonen zonder suiker en melk",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Kopje thee",
           "price": 225,
           "description": "Heerlijke een warme kopje thee om je ochtend mee te beginnen",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Jus d'orange",
           "price": 265,
           "description": "Vers geperste Jus d'orange",
           "vegetarian": true,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Cappuccino",
           "price": 325,
           "description": "Vers gemalen koffie met een heerlijke romige melklaag",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Latte",
           "price": 300,
           "description": "Vers gemalen koffie met een romige melk",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Verse muntthee",
           "price": 295,
           "description": "Heerlijke warme muntthee met honing",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Glas melk",
           "price": 150,
           "description": "Heerlijke romige melk",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Flesje water",
           "price": 150,
           "description": "Bronwater (spa rood of spa blauw)",
           "vegetarian": true,
-          "vegan": true
+          "vegan": true,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     }

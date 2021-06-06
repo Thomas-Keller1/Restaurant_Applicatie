@@ -8,126 +8,198 @@
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Coca-Cola Light",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Lipton Ice Tea",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Lipton Ice Tea Green",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Fanta",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Sprite",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Cassis",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Tonic",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Rivella",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Ginger Ale",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Biter Lemon",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Jus d'orange",
           "price": 290,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Royal Club Appelsap",
           "price": 290,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Fristi",
           "price": 290,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Chocomel",
           "price": 290,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Sourcy Blauw",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Sourcy Rood",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Sourcy Groen",
           "price": 260,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -139,56 +211,88 @@
           "price": 275,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Espresso",
           "price": 275,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Cappuccino",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Latté Macchiato",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Koffie Verkeerd",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Thee",
           "price": 275,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Verse Munt Thee",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Warme Chocolademelk",
           "price": 320,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -200,35 +304,55 @@
           "price": 800,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Amaretto",
           "price": 800,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Licor 43",
           "price": 800,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Tia Maria",
           "price": 800,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Cointreau",
           "price": 800,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -240,63 +364,99 @@
           "price": 275,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Bavaria Malt (0.0%)",
           "price": 275,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "La Trappe Blonde",
           "price": 425,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "La Trappe Dubbel",
           "price": 425,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "La Trappe Trippel",
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "La Trappe Wit",
           "price": 375,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Heineken",
           "price": 325,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Duvel",
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Desperados",
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -308,21 +468,33 @@
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Rode Huiswijn",
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Rosé Huiswijn",
           "price": 475,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -334,77 +506,121 @@
           "price": 395,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Witte Port",
           "price": 395,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Sherry Dry",
           "price": 395,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Martini Bianco",
           "price": 375,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Campari",
           "price": 450,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Malibu",
           "price": 550,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Smirnoff Vodka",
           "price": 550,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Hendrick's Gin",
           "price": 650,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Bacardi Blanc",
           "price": 550,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Jonge Jenever",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Oude Jenever",
           "price": 350,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -416,42 +632,66 @@
           "price": 700,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Tia Maria",
           "price": 700,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Amaretto",
           "price": 700,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Licor 43",
           "price": 700,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Cointreau",
           "price": 825,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Grand Marnier Rouge",
           "price": 825,
           "description": "",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     },
@@ -463,35 +703,55 @@
           "price": 850,
           "description": "Bacardi, Limoen, Verse Munt, Sourcy rood.",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Watermelon Fizz",
           "price": 875,
           "description": "Vodka, Watermeloen siroop, Citroen, Sourcy.",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Tropical Vodka",
           "price": 925,
           "description": "Vodka, Ananassap, Limoen, Passion, Prosecco.",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Beach Island Iced Tea",
           "price": 1175,
           "description": "Bacardi, Vodka, Tequila, Gin, Peachtree, Limoen, Cranberrysap.",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         },
         {
           "name": "Long Island Iced tea",
           "price": 1175,
           "description": "Bacardi, Vodka, Tequila, Cointreau, Gin, Limoen, Cola.",
           "vegetarian": false,
-          "vegan": false
+          "vegan": false,
+          "gluten": false,
+          "zuivel": false,
+          "noten": false,
+          "dieren": false
         }
       ]
     }

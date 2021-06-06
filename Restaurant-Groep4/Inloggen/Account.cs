@@ -11,13 +11,15 @@ namespace Restaurant_Groep4.Inloggen
         public string Wachtwoord { get; set; }
         public string Naam { get; set; }
         public string Email { get; set; }
+        public string TelefoonNummer { get; set;  }
 
-        public Account(string _gebruikersnaam, string _wachtwoord, string _naam, string _email)
+        public Account(string _gebruikersnaam, string _wachtwoord, string _naam, string _email, string _telefoonNummer)
         {
             GebruikersNaam = _gebruikersnaam;
             Wachtwoord = _wachtwoord;
             Naam = _naam;
             Email = _email;
+            TelefoonNummer = _telefoonNummer;
         }
     }
 }

@@ -60,12 +60,14 @@ namespace Restaurant_Groep4.Menu {
 
                                 if (menuitem.TryGetProperty("name", out JsonElement NameElement) && menuitem.TryGetProperty("price", out JsonElement PriceElement)
                                 && menuitem.TryGetProperty("description", out JsonElement DescriptionElement) && menuitem.TryGetProperty("vegetarian", out JsonElement VegetarianElement)
-                                && menuitem.TryGetProperty("vegan", out JsonElement VeganElement)) {
+                                && menuitem.TryGetProperty("vegan", out JsonElement VeganElement) && menuitem.TryGetProperty("gluten", out JsonElement GlutenElement) && menuitem.TryGetProperty("zuivel", out JsonElement ZuivelElement)
+                                && menuitem.TryGetProperty("noten", out JsonElement NotenElement) && menuitem.TryGetProperty("dieren", out JsonElement DierenElement))
+                                    {
 
-                                    tempListMenuItems.Add(new MenuItem(NameElement.GetString(), PriceElement.GetInt32(), DescriptionElement.GetString(), VegetarianElement.GetBoolean(), VeganElement.GetBoolean()));
+                                    tempListMenuItems.Add(new MenuItem(NameElement.GetString(), PriceElement.GetInt32(), DescriptionElement.GetString(), VegetarianElement.GetBoolean(), VeganElement.GetBoolean(), GlutenElement.GetBoolean(), ZuivelElement.GetBoolean(), NotenElement.GetBoolean(), DierenElement.GetBoolean()));
+                                    }
                                 }
                             }
-                        }
 
                         tempListMenuParts.Add(new MenuPart(PartnameElement.GetString(), tempListMenuItems));
                     }
@@ -96,11 +98,29 @@ namespace Restaurant_Groep4.Menu {
                 foreach (MenuItem menuitem in menupart.menuitems) {
                     display.AddString(0, currentY, menuitem.name);
                     display.AddString(display.displaybuffer.DisplayWidth - 6, currentY, $"€{(int)menuitem.price / 100}.{(int)menuitem.price % 100}");
-                    if (menuitem.vegetarian) {
-                        display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, 'V');
+                    if (menuitem.vegetarian)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 20, currentY, 'V');
                     }
-                    if (menuitem.vegan) {
-                        display.AddCharacter(display.displaybuffer.DisplayWidth - 8, currentY, 'v');
+                    if (menuitem.vegan)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 18, currentY, 'v');
+                    }
+                    if (menuitem.gluten)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 16, currentY, 'G');
+                    }
+                    if (menuitem.zuivel)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 14, currentY, 'Z');
+                    }
+                    if (menuitem.noten)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 12, currentY, 'N');
+                    }
+                    if (menuitem.dieren)
+                    {
+                        display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, 'D');
                     }
                     currentY++;
                     display.AddString(2, currentY, menuitem.description);

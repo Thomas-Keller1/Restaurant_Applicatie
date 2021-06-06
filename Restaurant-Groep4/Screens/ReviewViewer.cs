@@ -44,7 +44,6 @@ namespace Restaurant_Groep4.Screens {
             }
             Program.display.AddString(0, CurrentY + 1, $"Pagina {OnPage} van de {PageCount}");
             Program.display.AddString(0, CurrentY + 2, new string('=', 80));
-            Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
             Program.display.AddControl(new Control("Review schrijven", ScreenEnum.WriteReview, false));
             if (OnPage > 1) {
                 Program.display.AddControl(new Control("Vorige pagina", ScreenEnum.Mainmenu, true));
@@ -53,6 +52,7 @@ namespace Restaurant_Groep4.Screens {
                 Program.display.AddControl(new Control("Volgende pagina", ScreenEnum.Menus, true));
             }
             PageCount = CalculatePageCount();
+            Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
         }
 
         private static int LinesNeeded() {

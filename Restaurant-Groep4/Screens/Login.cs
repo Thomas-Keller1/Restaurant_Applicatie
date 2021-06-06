@@ -13,11 +13,11 @@ namespace Restaurant_Groep4.Screens
             Program.display.ResizeDisplay(80, 9);
             Program.display.AddString(0, 0, $"{new string('=', 36)}Inloggen{new string('=', 36)}");
             Program.display.AddString(0, 2, "1: Inloggen");
-            Program.display.AddString(0, 3, "2: Account maken");
+            Program.display.AddString(0, 3, "2: Account aanmaken");
             Program.display.AddString(0, 8, new string('=', 80));
-            Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
             Program.display.AddControl(new Control("Inloggen", ScreenEnum.Inloggen, false));
-            Program.display.AddControl(new Control("Account maken", ScreenEnum.AccountMaken, false));
+            Program.display.AddControl(new Control("Account aanmaken", ScreenEnum.AccountMaken, false));
+            Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
         }
     }
 }

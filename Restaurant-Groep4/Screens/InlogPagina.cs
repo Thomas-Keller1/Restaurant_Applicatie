@@ -21,7 +21,7 @@ namespace Restaurant_Groep4.Screens
 
             if (hi)
             {
-                Program.display.AddString(0, 2, $"U bent succesvol ingelogt.");
+                Program.display.AddString(0, 2, $"U bent succesvol ingelogd.");
             }
             else if (!hi)
             {
@@ -37,12 +37,10 @@ namespace Restaurant_Groep4.Screens
 
         public static void EditLogin()
         {
-            CurrentPersonHolder.Add(new Account("", "", "", ""));
-
-            Console.WriteLine("Voer een gebruikersnaam in:");
+            Console.WriteLine("Voer uw gebruikersnaam in:");
             string gebruikersnaam = Console.ReadLine();
 
-            Console.WriteLine("Voer een wachtwoord in:");
+            Console.WriteLine("Voer uw wachtwoord in:");
             string wachtwoord = Console.ReadLine();
 
             CurrentPersonHolder[0].GebruikersNaam = gebruikersnaam;
