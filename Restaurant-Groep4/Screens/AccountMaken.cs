@@ -22,10 +22,23 @@ namespace Restaurant_Groep4.Screens
             Program.display.AddString(0, 7, $"Uw naam: {CurrentAccountHolder[0].Naam }");
             Program.display.AddString(0, 8, $"Uw e-mailaderes: {CurrentAccountHolder[0].Email}");
             Program.display.AddString(0, 9, $"Uw telefoonnummer: {CurrentAccountHolder[0].TelefoonNummer}");
-            Program.display.AddString(0, 11, $"Uw account is succesvol gemaakt.");
+            // Program.display.AddString(0, 11, $"Uw account is succesvol gemaakt.");
             Program.display.AddString(0, 13, new string('=', 80));
 
-            Program.display.AddControl(new Control("Terug", ScreenEnum.Login, false));
+            Console.Write("Kloppen deze gegevens ja/nee: ");
+            string ans = Console.ReadLine();
+            if (ans == "ja" || ans == "Ja" || ans == "jA" || ans == "JA")
+            {
+                Console.WriteLine("Bedankt voor het maken van een account! Uw account is succesvol gemaakt.");
+                Program.InlogHandler.AddAccount(CurrentAccountHolder[0]);
+                Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
+            }
+            else
+            {
+                Console.WriteLine("\nMaak de account opnieuw!\n");
+                EditAccount();
+            }
+            //Program.display.AddControl(new Control("Terug", ScreenEnum.Login, false));
         }
 
         public static void EditAccount()

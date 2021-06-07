@@ -50,7 +50,7 @@ namespace Restaurant_Groep4.Screens {
             Console.Write("Klopt deze reservering ja/nee: ");
             string ans = Console.ReadLine();
             if (ans == "ja" || ans == "Ja" || ans == "jA" || ans == "JA") {
-                Console.WriteLine("Bedankt voor het reserveren! De reservering is geplaatst!");
+                Console.WriteLine("Bedankt voor het reserveren! Het reservering is geplaatst!");
                 Program.Reserveringhandler.AddReservering(new Reservering(naam, tafel, personen, new Date(datum.Year, datum.Month, datum.Day, datum.Hour, datum.Minute)));
                 Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
             }

@@ -29,8 +29,21 @@ namespace Restaurant_Groep4.Screens {
             if (CurrentReviewHolder[0].Description.Length > 80) { nextPlus += (CurrentReviewHolder[0].Description.Length / 80); }
             Program.display.AddString(0, 11 + nextPlus, $"Geschreven op: {CurrentReviewHolder[0].ReviewDate.Day}/{CurrentReviewHolder[0].ReviewDate.Month}/{CurrentReviewHolder[0].ReviewDate.Year}");
             Program.display.AddString(0, 13, new string('=', 80));
-
-            Program.display.AddControl(new Control("Terug", ScreenEnum.Reviews, false));
+            
+            Console.Write("Klopt de review ja/nee: ");
+            string ans = Console.ReadLine();
+            if (ans == "ja" || ans == "Ja" || ans == "jA" || ans == "JA")
+            {
+                Console.WriteLine("Bedankt voor het schrijven van een review! De review is geplaatst!");
+                Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
+                Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
+            }
+            else
+            {
+                Console.WriteLine("\nMaak de review opnieuw!\n");
+                EditReview();
+            }
+            // Program.display.AddControl(new Control("Terug", ScreenEnum.Reviews, false));
 
         }
 
@@ -55,7 +68,7 @@ namespace Restaurant_Groep4.Screens {
             CurrentReviewHolder[0].Rating = g;
             CurrentReviewHolder[0].Description = input;
 
-            Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
+            //Program.Reviewhandler.AddReview(CurrentReviewHolder[0]);
         }
     }
 }

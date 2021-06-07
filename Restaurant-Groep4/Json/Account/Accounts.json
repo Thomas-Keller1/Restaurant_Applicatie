@@ -1,3 +1,11 @@
 {
-  
+  "Accounts": [
+    {
+      "GebruikersNaam": "Kai",
+      "Wachtwoord": "Kaas",
+      "Naam": "Kai Ying",
+      "Email": "Kai@hotmail.com",
+      "TelefoonNummer": "0612345612"
+    }
+  ]
 }

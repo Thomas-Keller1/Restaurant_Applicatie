@@ -17,22 +17,41 @@ namespace Restaurant_Groep4.Screens
             Program.display.AddString(0, 0, $"{new string('=', 31)}Inloggen{new string('=', 31)}");
             EditLogin();
 
-            bool hi = true;
+            bool AccountExist = true;
+            bool Nop = false;
 
-            if (hi)
+            foreach (Account account in Program.InlogHandler.Accounts)
             {
-                Program.display.AddString(0, 2, $"U bent succesvol ingelogd.");
-            }
-            else if (!hi)
-            {
-                Program.display.AddString(0, 2, $"Uw wachtwoord komt niet overeen met uw gebruikersnaam.");
-            }
-            else
-            {
-                Program.display.AddString(0, 2, $"Uw gebruikersnaam is niet in ons systeem bekend.");
-            }
+                if (CurrentPersonHolder[0].GebruikersNaam == account.GebruikersNaam)
+                {
+                    if (CurrentPersonHolder[0].Wachtwoord == account.Wachtwoord)
+                    {
+                        AccountExist = true;
+                    } else if (CurrentPersonHolder[0].Wachtwoord != account.Wachtwoord)
+                    {
+                        AccountExist = false;
+                    }
+                    if (CurrentPersonHolder[0].GebruikersNaam != account.GebruikersNaam)
+                    {
+                        Nop = true;
+                    }
+                }
 
-            Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
+                if (AccountExist)
+                {
+                    Program.display.AddString(0, 2, $"U bent succesvol ingelogd.");
+                }
+                else if (!AccountExist)
+                {
+                    Program.display.AddString(0, 2, $"Uw wachtwoord komt niet overeen met uw gebruikersnaam.");
+                }
+                else if (Nop)
+                {
+                    Program.display.AddString(0, 2, $"Uw gebruikersnaam is niet in ons systeem bekend.");
+                }
+
+                Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
+            }
         }
 
         public static void EditLogin()
@@ -47,6 +66,4 @@ namespace Restaurant_Groep4.Screens
             CurrentPersonHolder[0].Wachtwoord = wachtwoord;
         }
     }
-
-
 }

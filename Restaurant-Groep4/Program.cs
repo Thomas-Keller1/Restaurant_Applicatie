@@ -4,6 +4,7 @@ using Restaurant_Groep4.Misc;
 using Restaurant_Groep4.Screens;
 using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
+using Restaurant_Groep4.Inloggen;
 
 namespace Restaurant_Groep4 {
     public class Program {
@@ -14,6 +15,10 @@ namespace Restaurant_Groep4 {
         public static ScreenEnum onScreen = ScreenEnum.Mainmenu;                          //Create a variable to hold our enum values this will track on which screen we are at every moment
         public static ReviewHandler Reviewhandler = new ReviewHandler();
         public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
+        public static InlogHandler InlogHandler = new InlogHandler();
+
+        //public static object InlogHandler { get; internal set; }
+
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 
