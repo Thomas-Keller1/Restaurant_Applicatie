@@ -8,7 +8,7 @@ using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Menu {
 
-    class MultiPageMenu : IMenu {
+    public class MultiPageMenu : IMenu {
 
         public List<MenuPart> menuparts {get; set;}
         public string menuname {get; set;}
@@ -36,7 +36,7 @@ namespace Restaurant_Groep4.Menu {
             loadFromJson(File.ReadAllText(dir));
         }
 
-        private void SaveToJSONFirstTime() {
+        public void SaveToJSONFirstTime() {
 
             JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
             string jsonstring = JsonSerializer.Serialize(this, options);
@@ -67,9 +67,10 @@ namespace Restaurant_Groep4.Menu {
 
                                 if (menuitem.TryGetProperty("name", out JsonElement NameElement) && menuitem.TryGetProperty("price", out JsonElement PriceElement)
                                 && menuitem.TryGetProperty("description", out JsonElement DescriptionElement) && menuitem.TryGetProperty("vegetarian", out JsonElement VegetarianElement)
-                                && menuitem.TryGetProperty("vegan", out JsonElement VeganElement)) {
+                                && menuitem.TryGetProperty("vegan", out JsonElement VeganElement) && menuitem.TryGetProperty("gluten", out JsonElement GlutenElement) && menuitem.TryGetProperty("zuivel", out JsonElement ZuivelElement)
+                                && menuitem.TryGetProperty("noten", out JsonElement NotenElement) && menuitem.TryGetProperty("dieren", out JsonElement DierenElement)) {
 
-                                    tempListMenuItems.Add(new MenuItem(NameElement.GetString(), PriceElement.GetInt32(), DescriptionElement.GetString(), VegetarianElement.GetBoolean(), VeganElement.GetBoolean()));
+                                    tempListMenuItems.Add(new MenuItem(NameElement.GetString(), PriceElement.GetInt32(), DescriptionElement.GetString(), VegetarianElement.GetBoolean(), VeganElement.GetBoolean(), GlutenElement.GetBoolean(), ZuivelElement.GetBoolean(), NotenElement.GetBoolean(), DierenElement.GetBoolean()));
                                 }
                             }
                         }
@@ -93,6 +94,8 @@ namespace Restaurant_Groep4.Menu {
             //display.displaybuffer.EmptyBuffer();
             display.displaybuffer.ResizeDisplayBuffer(display.displaybuffer.DisplayWidth, LinesNeeded());
             display.AddString(0, currentY, tempstring);
+            currentY++;
+            Program.display.AddString(0, currentY, x => (x.Email == null ? $"Not logged in!" : $"Logged in with account: {x.GebruikersNaam}"), ConsoleColor.White);
 
             currentY += 2;
             foreach (MenuPart menupart in menuparts) {
@@ -109,10 +112,29 @@ namespace Restaurant_Groep4.Menu {
                         display.AddString(0, currentY, menuitem.name);
                         display.AddString(display.displaybuffer.DisplayWidth - 6, currentY, $"€{(int)menuitem.price / 100}.{(int)menuitem.price % 100}");
                         if (menuitem.vegetarian) {
-                            display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, 'V');
+<<<<<<< Updated upstream
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, 'V', ConsoleColor.DarkGreen);
                         }
                         if (menuitem.vegan) {
-                            display.AddCharacter(display.displaybuffer.DisplayWidth - 8, currentY, 'v');
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 8, currentY, 'v', ConsoleColor.Green);
+                        }
+                        if (menuitem.gluten) {
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 16, currentY, 'G', ConsoleColor.Yellow);
+                        }
+                        if (menuitem.zuivel) {
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 14, currentY, 'Z', ConsoleColor.Cyan);
+                        }
+                        if (menuitem.noten) {
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 12, currentY, 'N', ConsoleColor.DarkRed);
+                        }
+                        if (menuitem.dieren) {
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, 'D', ConsoleColor.Magenta);
+=======
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 10, currentY, '√');
+                        }
+                        if (menuitem.vegan) {
+                            display.AddCharacter(display.displaybuffer.DisplayWidth - 8, currentY, 'V');
+>>>>>>> Stashed changes
                         }
                         currentY++;
                         display.AddString(2, currentY, menuitem.description);
@@ -129,6 +151,8 @@ namespace Restaurant_Groep4.Menu {
             }
 
             currentY++;
+            display.AddString(0, currentY, $"Page {onpage} out of {pagecount}");
+            currentY++;
             display.AddString(0, currentY, new string('=', display.displaybuffer.DisplayWidth));
             display.AddControl(new Control("Terug", ScreenEnum.Menus, false));
             if (onpage > 1) {
@@ -141,7 +165,7 @@ namespace Restaurant_Groep4.Menu {
 
         public int LinesNeeded() {
             int count = 1;
-            int result = 2;
+            int result = 3;
 
             foreach (MenuPart menupart in menuparts) {
 
@@ -162,7 +186,7 @@ namespace Restaurant_Groep4.Menu {
                 }
                 count++;
             }
-            return result + 2;
+            return result + 3;
         }
 
         public void ModifyPrivateValue(int modifier) {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Restaurant_Groep4.Misc {
-    class Date {
+    public class Date {
 
         public int Year {get; set;}
         public int Month {get; set;}
@@ -20,5 +20,54 @@ namespace Restaurant_Groep4.Misc {
             Minute = _minute;
         }
 
+        public static bool operator >(Date date1, Date date2) {
+
+            bool result = false;
+            if (date1.Year == date2.Year) {
+
+                if (date1.Month == date2.Month) {
+
+                    if (date1.Day == date2.Day) {
+                        result = false;
+                    }
+                    else {
+                        result = date1.Day > date2.Day ? true : false;
+                    }
+                }
+                else {
+                    result = date1.Month > date2.Month ? true : false;
+                }
+            }
+            else {
+                result = date1.Year > date2.Year ? true : false;
+            }
+            
+            return result;
+        }
+
+        public static bool operator <(Date date1, Date date2) {
+
+            bool result = false;
+            if (date1.Year == date2.Year) {
+
+                if (date1.Month == date2.Month) {
+
+                    if (date1.Day == date2.Day) {
+                        result = false;
+                    }
+                    else {
+                        result = date1.Day < date2.Day ? true : false;
+                    }
+                }
+                else {
+                    result = date1.Month < date2.Month ? true : false;
+                }
+            }
+            else {
+                result = date1.Year < date2.Year ? true : false;
+            }
+
+            return result;
+        }
     }
 }

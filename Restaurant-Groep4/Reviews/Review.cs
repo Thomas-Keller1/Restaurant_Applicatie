@@ -4,7 +4,7 @@ using System.Text;
 using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Reviews {
-    class Review {
+    public class Review {
 
         public string UserName {get; set;}
         public Date ReviewDate {get; set;}

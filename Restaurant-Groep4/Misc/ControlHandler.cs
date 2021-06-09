@@ -6,26 +6,26 @@ using Restaurant_Groep4.Menu;
 using Restaurant_Groep4.Screens;
 
 namespace Restaurant_Groep4.Misc {
-    class ControlHandler {
+    public class ControlHandler {
 
         public static bool IsInputValid() {
-            if (String.IsNullOrEmpty(Program.UserInput)) {                                                                                                      
-                Console.WriteLine("Invalid input: no input was given");
+            if (String.IsNullOrEmpty(Program.UserInput)) {
+                Console.WriteLine("Ongeldige invoer: geen invoer gegeven");//("Invalid input: no input was given");
                 return false;
             }
             if (Int32.TryParse(Program.UserInput, out int userinputasint)) {
                 if (userinputasint > Program.display.controls.Count) {
-                    Console.WriteLine("Invalid input: input number is higher then available input");
+                    Console.WriteLine("Ongeldige invoer: gegeven nummer is hoger dan het hoogste nummer");//("Invalid input: input number is higher then available input");
                     return false;
                 }
                 else if (userinputasint < 1) {
-                    Console.WriteLine("Invalid input: input number has to be higher then or equal to 1");
+                    Console.WriteLine("Ongeldige invoer: gegeven nummer moet hoger dan of gelijk zijn aan 1");//("Invalid input: input number has to be higher then or equal to 1");
                     return false;
                 }
 
             }
             else {
-                Console.WriteLine("Invalid input: only numbers can be given as input");
+                Console.WriteLine("Ongeldige invoer: alleen nummers kunnen als invoer gegeven worden");//("Invalid input: only numbers can be given as input");
                 return false;
             }
             return true;
@@ -108,14 +108,43 @@ namespace Restaurant_Groep4.Misc {
             }
             else if (Program.onScreen == ScreenEnum.ReserveringSchrijven) {
 
-                //Screens.FloorPlan.ToDisplay();
+                FloorPlan.ToDisplay();
+                Program.display.ToConsole();
                 ReserveringWriter.ToDisplay();
             }
             else if (Program.onScreen == ScreenEnum.Afsluiten) {
 
                 Program.running = false;
             }
+            else if (Program.onScreen == ScreenEnum.Login) {
 
+                Login.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Inloggen) {
+
+                InlogPagina.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.AccountMaken) {
+                AccountMaken.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.AdminManager) {
+                AdminManager.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.ReserveringViewer) {
+                ReserveringsViewer.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Uitloggen) {
+                Program.CurrentAccount = new Inloggen.Account("Anoniem", null, "Anoniem", null, null, false);
+                Program.onScreen = ScreenEnum.Mainmenu;
+                Console.WriteLine("Succesvol uitgelogd!");
+                Mainmenu.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.PrijsAanpasser) {
+                PriceChanger.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.Contactpage) {
+                ContactInfo.ToDisplay();
+            }
         }
     }
 }

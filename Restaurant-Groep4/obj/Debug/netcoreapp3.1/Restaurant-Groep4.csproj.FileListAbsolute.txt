@@ -24,3 +24,16 @@ C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debu
 C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
 C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
 C:\Users\Paran\Documents\GitHub\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.exe
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.deps.json
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.json
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.runtimeconfig.dev.json
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.dll
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\bin\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfoInputs.cache
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.AssemblyInfo.cs
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csproj.CoreCompileInputs.cache
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache

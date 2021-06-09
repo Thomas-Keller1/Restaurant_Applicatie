@@ -1,0 +1,126 @@
+
+GetReview Test: 
+__________________________________________________
+Got expected review by Anonymous by using the index 2
+Got expected review by Anonymous by using the index 7
+Got expected review by Anonymous by using the index 7
+Got expected review by Anonymous by using the index 15
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 6
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 19
+Got expected review by Anonymous by using the index 15
+Got expected review by Anonymous by using the index 1
+Got expected review by Anonymous by using the index 15
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 19
+Got expected review by Anonymous by using the index 7
+Got expected review by Anonymous by using the index 10
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 17
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 14
+Got expected review by Anonymous by using the index 9
+Got expected review by Anonymous by using the index 12
+Got expected review by Anonymous by using the index 5
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 2
+Got expected review by Anonymous by using the index 10
+Got expected review by Anonymous by using the index 6
+
+
+ Success percentage: 100% - Success/fail ratio: 30/0
+__________________________________________________
+EditReview Test: 
+__________________________________________________
+All 7 reviews successfully placed in the list
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+Rating 0 is an allowed rating
+SetColor Test: 
+__________________________________________________
+Color successfully set
+Color at 12, 10 is the intended color red
+Color successfully set
+Color at 37, 8 is the intended color red
+Color successfully set
+Color at 48, 29 is not within the display size of 80, 20
+Color successfully set
+Color at 70, 22 is not within the display size of 80, 20
+Color successfully set
+Color at 25, 21 is not within the display size of 80, 20
+AddControl Test: 
+__________________________________________________
+
+6 controls available expected 6
+
+AddCharacter Test: 
+__________________________________________________
+Character at 72, -1 successfully set to 5
+Character at 72, -1 is not within the display size of 80, 20
+Character at 16, 23 successfully set to 4
+Character at 16, 23 is not within the display size of 80, 20
+Character at 80, 27 successfully set to L
+Character at 80, 27 is not within the display size of 80, 20
+Character at 12, 20 successfully set to H
+Character at 12, 20 is not within the display size of 80, 20
+Character at 28, 7 successfully set to 8
+Character at 28, 7 is the intended character 8
+AddString Test: 
+__________________________________________________
+String at 10, 16 successfully set to H
+Character at 10, 16 is the intended character H
+String at 51, 13 successfully set to M
+Character at 51, 13 is the intended character M
+String at 98, 14 successfully set to M
+Character at 98, 14 is not within the display size of 80, 20
+String at 29, 18 successfully set to N
+Character at 29, 18 is the intended character N
+String at 50, 9 successfully set to C
+Character at 50, 9 is the intended character C
+Resize display Test: 
+__________________________________________________
+expected 14, 99 got 14, 99
+Linesneeded Test: 
+__________________________________________________
+expected 72 got 72
+expected 50 got 50
+expected 62 got 62
+expected 71 got 71
+FloorPlan ToDisplay Test: 
+__________________________________________________
+expected ■ got ■
+expected / got /
+expected T got T
+Reviewviewer ToDisplay Test: 
+__________________________________________________
+expected # got #
+expected : got :
+expected h got h
+Date LesserThenGreaterThen Test: 
+__________________________________________________
+expected False got False
+expected False got False
+expected False got False
+expected False got False
+expected False got False
+expected True got True
+expected True got True
+InputValid_Tester: 
+__________________________________________________
+expected True got True
+expected False got False
+expected False got False
+expected False got False
+expected False got False
+expected False got False
+expected False got False

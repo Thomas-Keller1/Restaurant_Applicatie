@@ -1,25 +1,25 @@
 {
-  "Reservering": [
+  "Reserveringen": [
     {
-      "Naam": "Thomas Keller",
-      "Tafel": 25,
-      "Personnen": 6,
+      "Naam": "Thomas",
+      "Tafel": 2,
+      "Personnen": 3,
       "Datum": {
         "Year": 2022,
-        "Month": 5,
-        "Day": 23,
+        "Month": 2,
+        "Day": 2,
         "Hour": 0,
         "Minute": 0
       }
     },
     {
-      "Naam": "t",
-      "Tafel": 4,
-      "Personnen": 51,
+      "Naam": "Kai",
+      "Tafel": 3,
+      "Personnen": 2,
       "Datum": {
-        "Year": 2022,
-        "Month": 2,
-        "Day": 2,
+        "Year": 2021,
+        "Month": 6,
+        "Day": 10,
         "Hour": 0,
         "Minute": 0
       }

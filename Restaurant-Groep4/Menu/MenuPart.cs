@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurant_Groep4.Menu {
 
-    class MenuPart {                                //creating the menupart class
+    public class MenuPart {                                //creating the menupart class
 
         public string partname { get; set; }        //create the property partname of type string
         public List<MenuItem> menuitems { get; set; }   //create the property menuitems of type List that holds instances of our menuitems class
