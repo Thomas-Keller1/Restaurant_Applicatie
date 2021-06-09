@@ -20,6 +20,10 @@ namespace Restaurant_Groep4.Misc {
         ReserveringSchrijven,
         Reviews,
         WriteReview,
-        Afsluiten
+        Afsluiten,
+        AdminManager,
+        ReserveringViewer,
+        PrijsAanpasser,
+        Uitloggen
     }
 }

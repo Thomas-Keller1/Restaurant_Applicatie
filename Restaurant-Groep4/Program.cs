@@ -4,6 +4,7 @@ using Restaurant_Groep4.Misc;
 using Restaurant_Groep4.Screens;
 using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Reserveringen;
+using Restaurant_Groep4.Inloggen;
 
 namespace Restaurant_Groep4 {
     public class Program {
@@ -14,6 +15,8 @@ namespace Restaurant_Groep4 {
         public static ScreenEnum onScreen = ScreenEnum.Mainmenu;                          //Create a variable to hold our enum values this will track on which screen we are at every moment
         public static ReviewHandler Reviewhandler = new ReviewHandler();
         public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
+        public static InlogHandler InlogHandler = new InlogHandler();
+        public static Account CurrentAccount = new Account("Anoniem", null, "Anoniem", null, null, false);
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method
 
@@ -39,7 +42,7 @@ namespace Restaurant_Groep4 {
  
         private static void Update() {                  //Update method
                                                         //Displaying everything in our display to the console
-            Console.WriteLine("Enter your input: ");    //Writing something to the console that is outside our displaybuffer
+            Console.WriteLine("Geef jouw invoer: ");    //Writing something to the console that is outside our displaybuffer
             UserInput = Console.ReadLine();             //Waiting for user to give input
             if (ControlHandler.IsInputValid()) {        //Checks if the input given is valid by calling the IsInputValid method from our controlhandler
                 ControlHandler.HandleInput();           //Calling the HandleInput method from our controlhandler

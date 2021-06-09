@@ -1,46 +1,40 @@
-AddCharacter Test: 
-__________________________________________________
-Character at 66, 14 successfully set to A
-Character at 66, 14 is the intended character A
-Character at 32, 14 successfully set to U
-Character at 32, 14 is the intended character U
-Character at 91, 25 successfully set to P
-Character at 91, 25 is not within the display size of 80, 20
-Character at 88, 2 successfully set to F
-Character at 88, 2 is not within the display size of 80, 20
-Character at 36, 14 successfully set to >
-Character at 36, 14 is the intended character >
-AddControl Test: 
-__________________________________________________
-Control successfully added
-Control successfully added
 
-8 controls available expected 8
+GetReview Test: 
+__________________________________________________
+Got expected review by Anonymous by using the index 10
+Got expected review by Anonymous by using the index 3
+Got expected review by Anonymous by using the index 17
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 0
+Got expected review by Anonymous by using the index 12
+Got expected review by Anonymous by using the index 1
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 10
+Got expected review by Anonymous by using the index 19
+Got expected review by Anonymous by using the index 11
+Got expected review by Anonymous by using the index 9
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 10
+Got expected review by Anonymous by using the index 12
+Got expected review by Anonymous by using the index 5
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 13
+Got expected review by Anonymous by using the index 18
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 4
+Got expected review by Anonymous by using the index 8
+Got expected review by Anonymous by using the index 16
+Got expected review by Anonymous by using the index 9
+Got expected review by Anonymous by using the index 15
+Got expected review by Anonymous by using the index 17
 
-AddString Test: 
+
+ Success percentage: 100% - Success/fail ratio: 30/0
 __________________________________________________
-String at 93, 2 successfully set to F
-Character at 93, 2 is not within the display size of 80, 20
-String at 53, 20 successfully set to T
-Character at 53, 20 is not within the display size of 80, 20
-String at 97, 2 successfully set to J
-Character at 97, 2 is not within the display size of 80, 20
-String at 68, 1 successfully set to G
-Character at 68, 1 is the intended character G
-String at 55, 1 successfully set to ?
-Character at 55, 1 is the intended character ?
-SetColor Test: 
-__________________________________________________
-Color successfully set
-Color at 26, 10 is the intended color red
-Color successfully set
-Color at 87, 20 is not within the display size of 80, 20
-Color successfully set
-Color at 4, 20 is not within the display size of 80, 20
-Color successfully set
-Color at 85, 24 is not within the display size of 80, 20
-Color successfully set
-Color at -2, 27 is not within the display size of 80, 20
 EditReview Test: 
 __________________________________________________
 All 7 reviews successfully placed in the list
@@ -52,57 +46,65 @@ Rating 0 is an allowed rating
 Rating 0 is an allowed rating
 Rating 0 is an allowed rating
 Rating 0 is an allowed rating
-FloorPlan ToDisplay Test: 
+SetColor Test: 
 __________________________________________________
-expected ■ got ■
-expected / got /
-expected T got T
-
-GetReview Test: 
+Color successfully set
+Color at 93, 4 is not within the display size of 80, 20
+Color successfully set
+Color at 24, 17 is the intended color red
+Color successfully set
+Color at 84, 9 is not within the display size of 80, 20
+Color successfully set
+Color at 28, 16 is the intended color red
+Color successfully set
+Color at 54, 25 is not within the display size of 80, 20
+AddControl Test: 
 __________________________________________________
-Got expected review by Anonymous by using the index 7
-Got expected review by Anonymous by using the index 4
-Got expected review by Anonymous by using the index 14
-Got expected review by Anonymous by using the index 0
-Got expected review by Anonymous by using the index 16
-Got expected review by Anonymous by using the index 5
-Got expected review by Anonymous by using the index 14
-Got expected review by Anonymous by using the index 0
-Got expected review by Anonymous by using the index 16
-Got expected review by Anonymous by using the index 9
-Got expected review by Anonymous by using the index 0
-Got expected review by Anonymous by using the index 4
-Got expected review by Anonymous by using the index 6
-Got expected review by Anonymous by using the index 19
-Got expected review by Anonymous by using the index 11
-Got expected review by Anonymous by using the index 8
-Got expected review by Anonymous by using the index 4
-Got expected review by Anonymous by using the index 18
-Got expected review by Anonymous by using the index 18
-Got expected review by Anonymous by using the index 5
-Got expected review by Anonymous by using the index 4
-Got expected review by Anonymous by using the index 8
-Got expected review by Anonymous by using the index 3
-Got expected review by Anonymous by using the index 17
-Got expected review by Anonymous by using the index 2
-Got expected review by Anonymous by using the index 17
-Got expected review by Anonymous by using the index 8
-Got expected review by Anonymous by using the index 13
-Got expected review by Anonymous by using the index 3
-Got expected review by Anonymous by using the index 14
+Control successfully added
+Control successfully added
+Control successfully added
+Control successfully added
 
+10 controls available expected 10
 
- Success percentage: 100% - Success/fail ratio: 30/0
+AddCharacter Test: 
 __________________________________________________
+Character at 88, 26 successfully set to D
+Character at 88, 26 is not within the display size of 80, 20
+Character at 48, -1 successfully set to Q
+Character at 48, -1 is not within the display size of 80, 20
+Character at 4, 17 successfully set to 8
+Character at 4, 17 is the intended character 8
+Character at 29, 14 successfully set to @
+Character at 29, 14 is the intended character @
+Character at 89, 29 successfully set to >
+Character at 89, 29 is not within the display size of 80, 20
+AddString Test: 
+__________________________________________________
+String at 94, 19 successfully set to G
+Character at 94, 19 is not within the display size of 80, 20
+String at 75, 10 successfully set to D
+Character at 75, 10 is the intended character D
+String at 46, 0 successfully set to T
+Character at 46, 0 is the intended character T
+String at 65, 8 successfully set to L
+Character at 65, 8 is the intended character L
+String at 33, 12 successfully set to I
+Character at 33, 12 is the intended character I
+Resize display Test: 
+__________________________________________________
+expected 91, 86 got 91, 86
 Linesneeded Test: 
 __________________________________________________
 expected 71 got 71
 expected 49 got 49
 expected 61 got 61
 expected 70 got 70
-Resize display Test: 
+FloorPlan ToDisplay Test: 
 __________________________________________________
-expected 23, 81 got 23, 81
+expected ■ got ■
+expected / got /
+expected T got T
 Reviewviewer ToDisplay Test: 
 __________________________________________________
 expected # got #

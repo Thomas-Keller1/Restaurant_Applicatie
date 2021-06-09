@@ -9,7 +9,17 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Menu;
 using Restaurant_Groep4.Reserveringen;
 
-namespace Restaurant_Groep4_test {
+namespace Restaurant_Groep4_test
+{
+
+    //first:
+    //dotnet test --collect:"XPlat Code Coverage"
+
+
+    //then: (change the dirs) EXECUTE IN THE PACKAGE MANAGER CONSOLE!!!!
+    //reportgenerator "-reports:C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4_test\TestResults\e9196067-6b67-4bec-bbcd-415bef4007cc\coverage.cobertura.xml" "-targetdir:C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4_test\TestResults\e9196067-6b67-4bec-bbcd-415bef4007cc\" -reporttypes:Html
+
+
 
     [TestClass]
     public class UnitTest1 {

@@ -36,3 +36,4 @@ C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\D
 C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.dll
 C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.pdb
 C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.genruntimeconfig.cache
+C:\Users\Paran\Documents\BackupGit\Restaurant_Applicatie\Restaurant-Groep4\obj\Debug\netcoreapp3.1\Restaurant-Groep4.csprojAssemblyReference.cache

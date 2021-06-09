@@ -12,12 +12,13 @@ namespace Restaurant_Groep4.Screens {
 
             Program.display.ResizeDisplay(80, 9);
             Program.display.AddString(0, 0, $"{new string('=', 37)}Menu's{new string('=', 37)}");
-            Program.display.AddString(0, 2, "1: Ontbijtmenu");
-            Program.display.AddString(0, 3, "2: Lunchmenu");
-            Program.display.AddString(0, 4, "3: Dinermenu");
-            Program.display.AddString(0, 5, "4: Kindermenu");
-            Program.display.AddString(0, 6, "5: Drankenkaart");
-            Program.display.AddString(0, 8, new string('=', 80));
+            Program.display.AddString(0, 1, x => (x.Email == null ? $"Not logged in!" : $"Logged in with account: {x.GebruikersNaam}"), ConsoleColor.White);
+            Program.display.AddString(0, 3, "1: Ontbijtmenu");
+            Program.display.AddString(0, 4, "2: Lunchmenu");
+            Program.display.AddString(0, 5, "3: Dinermenu");
+            Program.display.AddString(0, 6, "4: Kindermenu");
+            Program.display.AddString(0, 7, "5: Drankenkaart");
+            Program.display.AddString(0, 9, new string('=', 80));
             Program.display.AddControl(new Control("Terug", ScreenEnum.Mainmenu, false));
             Program.display.AddControl(new Control("Ontbijt", ScreenEnum.Ontbijtmenu, false));
             Program.display.AddControl(new Control("Lunch", ScreenEnum.Lunchmenu, false));

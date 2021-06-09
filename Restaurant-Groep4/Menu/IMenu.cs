@@ -12,6 +12,8 @@ namespace Restaurant_Groep4.Menu {
 
         void ToDisplay(Display.Display display);//each menu class has a void method called ToDisplay that takes in a display
 
+        void SaveToJSONFirstTime();
+
         int LinesNeeded();                      //each menu class has a int method called Linesneeded that takes no arguments
 
         void ModifyPrivateValue(int modifier);  //each menu class has a void method called modifyprivatevalue that takes in a int

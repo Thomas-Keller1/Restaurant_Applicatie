@@ -45,6 +45,7 @@ namespace Restaurant_Groep4.Screens {
                 firstTime = false;
             }
             Console.WriteLine($"{new string('=', 31)}Huidige reservering{new string('=', 30)}\n");
+            Console.WriteLine(Program.CurrentAccount.Email == null ? $"Not logged in!" : $"Logged in with account: {Program.CurrentAccount.GebruikersNaam}");
             Console.WriteLine($"Naam: {naam}\nTafelnummer: {tafel}\nPersonen: {personen}\nDatum (maand/dag/jaar): {datum.Month}/{datum.Day}/{datum.Year}\n");
             Console.WriteLine(new string('=', 80));
             Console.Write("Klopt deze reservering ja/nee: ");
