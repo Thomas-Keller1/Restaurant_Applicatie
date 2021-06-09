@@ -1,1 +1,10 @@
-{}
+{
+  "Reserveringen": [
+    {
+      "Naam": "Lamis ",
+      "Tafel": 4,
+      "Personen": 6,
+      "Datum": "2021-07-12T00:00:00"
+    }
+  ]
+}

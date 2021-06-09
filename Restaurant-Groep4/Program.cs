@@ -19,7 +19,7 @@ namespace Restaurant_Groep4 {
         public static ReviewHandler Reviewhandler = new ReviewHandler();
         public static ReserveringHandler Reserveringhandler = new ReserveringHandler();
         public static ContactpaginaHandler ContactpaginaHandler = new ContactpaginaHandler();
-        
+
         public static InlogHandler Inloghandler = new InlogHandler();
         //public static Menu.MultiPageMenu testmenu = new Menu.MultiPageMenu("testmenu", 1);
         public static void Main(string[] args) {        //Main method

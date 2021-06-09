@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="Json\Accounts\NewFile1.txt" />
+    <None Remove="Prijzen\NewFile1.txt" />
   </ItemGroup>
 
   <ItemGroup>

@@ -28,7 +28,7 @@ namespace Restaurant_Groep4.Inloggen
         {
             foreach (Account account in this.Account)
             {
-                if (account.Naam == username && account.Wachtwoord == password)
+                if (account.GebruikersNaam.Equals(username) && account.Wachtwoord.Equals(password))
                 {
                     this.LoggedInUser = account;
                     return true;

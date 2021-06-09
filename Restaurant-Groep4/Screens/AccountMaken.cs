@@ -9,7 +9,7 @@ namespace Restaurant_Groep4.Screens
 {
     class AccountMaken
     {
-        public static void ToDispaly()
+        public static void ToDisplay()
         {
             Program.display.ResizeDisplay(80, 9);
             EditAccount();

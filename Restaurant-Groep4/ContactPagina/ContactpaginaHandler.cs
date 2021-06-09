@@ -16,7 +16,7 @@ namespace Restaurant_Groep4.Contactpagina
         {
 
             ContactPagina = new List<Contactpagina>();
-            ContactPagina.Add(new Contactpagina("Our Restaurant", "contact@Restaurant.nl", "0031657484333", "11:00_00:00", "Aalscholverlaan, 3232RR Rotterdam", "In ons restaurant vind je het lekkerste eten. Je hebt meer dan 20 opties, je kunt ook de tijd selecteren die je wilt en ook de plaats waar je wilt zitten." , "Veelgestelde vragen: .Hoe kan ik een plaats reserveren?          .Is het mogelijk om de reservering te annuleren of te wijzigen? Voor meer informatie kunt u contact met ons opnemen :)"));
+            ContactPagina.Add(new Contactpagina("Verde", "contact@verde.nl", "0031657484333", "11:00_00:00", "Aalscholverlaan, 3232RR Rotterdam", "In Verde restaurant vind je het lekkerste eten. Je hebt meer dan 20 opties, je kunt ook de tijd selecteren die\n je wilt en ook de plaats waar je wilt zitten." , "Veelgestelde vragen: \n.Hoe kan ik een plaats reserveren? \n.Is het mogelijk om de reservering te annuleren of te wijzigen?\n                                                      Voor meer informatie kunt u contact met ons opnemen :)"));
             LoadFromJson();
         }
         private void LoadFromJson()

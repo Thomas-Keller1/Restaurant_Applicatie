@@ -20,6 +20,19 @@ namespace Restaurant_Groep4.Misc {
         ReserveringSchrijven,
         Reviews,
         WriteReview,
-        Afsluiten
+        AdminInfo,
+        AdminPermissie,
+        AdminMenu,
+        Afsluiten,
+        OntbijtAdmin,
+        KinderAdmin,
+        DinerAdmin,
+        LunchAdmin,
+        DrankenAdmin,
+        ChangeOntbijt,
+        ChangeLunch,
+        ChangeDiner,
+        ChangeKinder,
+        ChangeDranken
     }
 }

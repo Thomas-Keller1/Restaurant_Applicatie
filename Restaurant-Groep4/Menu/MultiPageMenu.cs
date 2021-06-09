@@ -36,7 +36,7 @@ namespace Restaurant_Groep4.Menu {
             loadFromJson(File.ReadAllText(dir));
         }
 
-        private void SaveToJSONFirstTime() {
+        public void SaveToJSON() {
 
             JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
             string jsonstring = JsonSerializer.Serialize(this, options);
@@ -82,7 +82,7 @@ namespace Restaurant_Groep4.Menu {
             }
         }
 
-        public void ToDisplay(Display.Display display) {
+        public void ToDisplay(Display.Display display, bool admin = false) {
 
             int count = 1;
             int currentY = 0;
@@ -136,6 +136,18 @@ namespace Restaurant_Groep4.Menu {
             }
             if (onpage < pagecount) {
                 display.AddControl(new Control("Volgende pagina", ScreenEnum.Menus, true));
+            }
+
+            if (admin)
+            {
+                if (Program.onScreen == ScreenEnum.LunchAdmin)
+                {
+                    display.AddControl(new Control("Verander Prijs", ScreenEnum.ChangeLunch, false));
+                }
+                else if (Program.onScreen == ScreenEnum.DinerAdmin)
+                {
+                    display.AddControl(new Control("Verander Prijs", ScreenEnum.ChangeDiner, false));
+                }
             }
         }
 

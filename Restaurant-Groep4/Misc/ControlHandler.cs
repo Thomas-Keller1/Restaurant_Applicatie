@@ -4,10 +4,12 @@ using System.Text;
 using Restaurant_Groep4;
 using Restaurant_Groep4.Menu;
 using Restaurant_Groep4.Screens;
+using Restaurant_Groep4.Prijzen;
 
 namespace Restaurant_Groep4.Misc {
     public class ControlHandler {
 
+        static List<ScreenEnum> changes = new List<ScreenEnum>() { ScreenEnum.ChangeOntbijt, ScreenEnum.ChangeLunch, ScreenEnum.ChangeDiner, ScreenEnum.ChangeKinder, ScreenEnum.ChangeDranken };
         public static bool IsInputValid() {
             if (String.IsNullOrEmpty(Program.UserInput)) {                                                                                                      
                 Console.WriteLine("Invalid input: no input was given");
@@ -125,7 +127,40 @@ namespace Restaurant_Groep4.Misc {
                 InlogPagina.ToDisplay();
             }
             else if (Program.onScreen == ScreenEnum.AccountMaken) {
-                AccountMaken.ToDispaly();
+                AccountMaken.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.ContactPagina) {
+                ContactInfo.ToDisplay();
+            }
+            else if (Program.onScreen == ScreenEnum.AdminInfo)
+            {
+                AdminInfo.ToDisplay();
+            }else if (Program.onScreen == ScreenEnum.AdminMenu)
+            {
+                AdminMenu.ToDisplay();
+            }else if (Program.onScreen == ScreenEnum.OntbijtAdmin)
+            {
+                MenuRegister.menuregister[0].Item1.ToDisplay(Program.display, true);
+            }
+            else if (Program.onScreen == ScreenEnum.LunchAdmin)
+            {
+                MenuRegister.menuregister[1].Item1.ToDisplay(Program.display, true);
+            }
+            else if (Program.onScreen == ScreenEnum.DinerAdmin)
+            {
+                MenuRegister.menuregister[2].Item1.ToDisplay(Program.display, true);
+            }
+            else if (Program.onScreen == ScreenEnum.KinderAdmin)
+            {
+                MenuRegister.menuregister[3].Item1.ToDisplay(Program.display, true);
+            }
+            else if (Program.onScreen == ScreenEnum.DrankenAdmin)
+            {
+                MenuRegister.menuregister[4].Item1.ToDisplay(Program.display, true);
+            }
+            else if (changes.Contains(Program.onScreen))
+            { 
+                ChangePrice.Change();
             }
 
         }
