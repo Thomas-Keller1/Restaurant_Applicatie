@@ -16,7 +16,7 @@ namespace Restaurant_Groep4.Display {
             DisplayHeight = height;                         //Storing the Height of the buffer
             DisplayWidth = width;                           //Storing the Width of the buffer 
         }
-
+        
         public string toString() {                          //implementing the toString method from the interface IDisplayBuffer
             //This method will convert the char array to a single string that can be displayed in the console with Console.WriteLine()
 
