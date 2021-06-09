@@ -44,7 +44,7 @@ namespace Restaurant_Groep4.Prijzen
             return Console.ReadLine();
         }
 
-        static void EditPrice(string item, int menu)
+        static bool EditPrice(string item, int menu)
         {
             Console.Write("Voer de nieuwe prijs in honderdtallen in (voorbeeld: €3 => 300): ");
             string prijs = Console.ReadLine();
@@ -54,6 +54,17 @@ namespace Restaurant_Groep4.Prijzen
                 prijs = Console.ReadLine();
             }
 
+            foreach (var parts in MenuRegister.menuregister[menu].Item1.menuparts)
+            {
+                foreach (var it in parts.menuitems)
+                {
+                    if (it.name.Equals(item))
+                    {
+                        it.price = int.Parse(prijs);
+                    }
+                }
+            }
+            return true;
         }
 
         public static void Change()
@@ -68,6 +79,10 @@ namespace Restaurant_Groep4.Prijzen
             {
                 input = HandleInput();
                 validitem = Search(input, menu);
+                if (validitem)
+                {
+                    exit = EditPrice(input, menu);
+                }
             }
         }
         
