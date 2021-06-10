@@ -5,7 +5,7 @@ using Restaurant_Groep4.Reviews;
 using Restaurant_Groep4.Misc;
 
 namespace Restaurant_Groep4.Screens {
-    class ReviewViewer {
+    public static class ReviewViewer {
 
         private static int OnPage = 1;
         private static int ReviewsPerPage = 5;
@@ -18,6 +18,8 @@ namespace Restaurant_Groep4.Screens {
             int count = 0;
             int Rcount = 0;
             Program.display.AddString(0, CurrentY, $"{new string('=', 36)}Reviews={new string('=', 36)}");
+            CurrentY++;
+            Program.display.AddString(0, CurrentY, x => (x.Email == null ? $"Niet ingelogd!" : $"Ingelogd met account: {x.GebruikersNaam}"), ConsoleColor.White);
             CurrentY += 2;
             foreach (Review review in Program.Reviewhandler.Reviews) {
                 if (count < (OnPage * ReviewsPerPage) && count >= ((OnPage - 1) * ReviewsPerPage)) {

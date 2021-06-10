@@ -4,13 +4,15 @@ using System.Text;
 
 namespace Restaurant_Groep4.Menu {
 
-    interface IMenu {                           //creating an interface called IMenu
+    public interface IMenu {                           //creating an interface called IMenu
 
         //All interface methods and properties are public
         List<MenuPart> menuparts {get; set;}    //each menu class has a list of menuparts
         string menuname {get; set;}             //each menu class has a menuname
 
         void ToDisplay(Display.Display display);//each menu class has a void method called ToDisplay that takes in a display
+
+        void SaveToJSONFirstTime();
 
         int LinesNeeded();                      //each menu class has a int method called Linesneeded that takes no arguments
 

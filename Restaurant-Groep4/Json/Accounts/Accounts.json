@@ -1,0 +1,364 @@
+{
+  "Accounts": [
+    {
+      "GebruikersNaam": "Kai",
+      "Wachtwoord": "Kaas",
+      "Naam": "Kai Ying",
+      "Email": "Kai@hotmail.com",
+      "TelefoonNummer": "0612345612",
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "Thomas",
+      "Wachtwoord": "Keller",
+      "Naam": "Thomas Keller",
+      "Email": "tiapgamer@gmail.com",
+      "TelefoonNummer": "06101010",
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "Admin",
+      "Wachtwoord": "Admin123!",
+      "Naam": "Admin",
+      "Email": "Admin.permission@gmail.com",
+      "TelefoonNummer": "06101010",
+      "Admin": true
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    },
+    {
+      "GebruikersNaam": "random",
+      "Wachtwoord": "hallo",
+      "Naam": "randy random",
+      "Email": "Example@gmail.com, 06102124",
+      "TelefoonNummer": null,
+      "Admin": false
+    }
+  ]
+}

@@ -15,9 +15,15 @@ namespace Restaurant_Groep4.Misc {
         Drankenkaart,
         Contactpage,
         Login,
+        Inloggen,
+        AccountMaken,
         ReserveringSchrijven,
         Reviews,
         WriteReview,
-        Afsluiten
+        Afsluiten,
+        AdminManager,
+        ReserveringViewer,
+        PrijsAanpasser,
+        Uitloggen
     }
 }

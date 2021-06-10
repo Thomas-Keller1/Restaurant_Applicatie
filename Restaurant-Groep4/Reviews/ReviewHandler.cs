@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 using System.IO;
 
 namespace Restaurant_Groep4.Reviews {
-    class ReviewHandler {
+    public class ReviewHandler {
 
         public List<Review> Reviews {get; set;}
 
@@ -25,7 +25,7 @@ namespace Restaurant_Groep4.Reviews {
         public Review GetReview(int _index) {
 
             if (Reviews.Count == 0) {
-                return new Review("None", new Date(0, 0, 0, 0, 0), "Empty", 0);
+                return new Review("Geen", new Date(0, 0, 0, 0, 0), "Leeg", 0);
             }
             else if (_index > Reviews.Count - 1) {
                 return Reviews[0];
